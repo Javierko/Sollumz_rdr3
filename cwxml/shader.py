@@ -62,6 +62,12 @@ class Shader(ElementTree):
                 return True
         return False
 
+    def required_tangent1(self):
+        for layout in self.layouts:
+            if "Tangent1" in layout.value:
+                return True
+        return False
+
     def get_layout_from_semantic(self, vertex_semantic, is_skinned=False):
         for layout in self.layouts:
             if layout.vertex_semantic == vertex_semantic:

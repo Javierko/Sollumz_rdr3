@@ -257,6 +257,11 @@ def get_mesh_buffers(obj, mesh, vertex_type, bones=None):
                     kwargs["tangent"] = tuple(tangent)
                 else:
                     kwargs["tangent"] = tuple([0, 0, 0, 0])
+            if "tangent1" in vertex_type._fields:
+                if loop.tangent:
+                    tangent1 = float32_list(loop.tangent.to_4d())
+                    tangent1[3] = loop.bitangent_sign  # convert to float 32 ?
+                    kwargs["tangent1"] = tuple(tangent1)
             for i in range(6):
                 if f"texcoord{i}" in vertex_type._fields:
                     key = f"texcoord{i}"
@@ -326,6 +331,8 @@ def get_semantic_from_object(shader, mesh):
     # add tangents
     if shader.required_tangent:
         sematic.append(ydrxml.VertexSemantic.tangent)
+    if shader.required_tangent1:
+        sematic.append(ydrxml.VertexSemantic.tangent1)
 
     return "".join(sematic)
 

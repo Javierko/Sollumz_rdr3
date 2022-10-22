@@ -321,6 +321,7 @@ class VertexSemantic(str, Enum):
     color = "C"
     texcoord = "T"
     tangent = "T"
+    tangent1 = "T"
 
 
 class VertexLayoutListProperty(ElementProperty):
