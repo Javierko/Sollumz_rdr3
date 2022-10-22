@@ -10193,9 +10193,9 @@
 		  <Item name="tintpaletteselector" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
 		  <Item name="detailsettings" type="Vector" x="0.0" y="1.0" z="24.0" w="24.0" />
 		  <Item name="detailindexoverride" type="Vector" x="-1.0" y="0.0" z="0.0" w="0.0" />
-		  <Item name="dirtFactor" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
-		  <Item name="dirtRoughness" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
-		  <Item name="DirtBlend" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="dirtfactor" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="dirtroughness" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="dirtblend" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
 		  <Item name="fresnel" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
 		  <Item name="specmapintmask" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
 		  <Item name="tintoverride" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
@@ -10215,7 +10215,7 @@
 		  <Item name="pbrdetail_ao" type="Vector" x="0.0" yy="0.0" z="0.0" w="0.0" />
 		  <Item name="pbrdetail_translucency" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
 		  <Item name="bumpiness" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
-		  <Item name="Diffuse2ModSpec" type="Vector" x="0.8" y="0.0" z="0.0" w="0.0" />
+		  <Item name="diffuse2modspec" type="Vector" x="0.8" y="0.0" z="0.0" w="0.0" />
 		  <Item name="wetnessmultiplier" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />		  
 		  <Item name="porosity" type="Vector" x="0.5" y="0.0" z="0.0" w="0.0" />
 		  <Item name="usetessellation" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
@@ -10279,9 +10279,9 @@
 		  <Item name="tintpaletteselector" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
 		  <Item name="detailsettings" type="Vector" x="0.0" y="1.0" z="24.0" w="24.0" />
 		  <Item name="detailindexoverride" type="Vector" x="-1.0" y="0.0" z="0.0" w="0.0" />
-		  <Item name="dirtFactor" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
-		  <Item name="dirtRoughness" type="Vector" x="0.3" y="0.0" z="0.0" w="0.0" />
-		  <Item name="DirtBlend" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="dirtfactor" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="dirtroughness" type="Vector" x="0.3" y="0.0" z="0.0" w="0.0" />
+		  <Item name="dirtblend" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
 		  <Item name="fresnel" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
 		  <Item name="specmapintmask" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
 		  <Item name="tintoverride" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
@@ -10301,7 +10301,7 @@
 		  <Item name="pbrdetail_ao" type="Vector" x="0.0" yy="0.0" z="0.0" w="0.0" />
 		  <Item name="pbrdetail_translucency" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
 		  <Item name="bumpiness" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
-		  <Item name="Diffuse2ModSpec" type="Vector" x="0.8" y="0.0" z="0.0" w="0.0" />
+		  <Item name="diffuse2modspec" type="Vector" x="0.8" y="0.0" z="0.0" w="0.0" />
 		  <Item name="wetnessmultiplier" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />		  
 		  <Item name="porosity" type="Vector" x="0.5" y="0.0" z="0.0" w="0.0" />
 		  <Item name="usetessellation" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
@@ -10352,9 +10352,9 @@
 		  <Item name="detailsettings" type="Vector" x="0.0" y="1.0" z="24.0" w="24.0" />
 		  <Item name="detailindexoverride" type="Vector" x="-1.0" y="0.0" z="0.0" w="0.0" />
 		  <Item name="parallaxScaleBias" type="Vector" x="0.03" y="0.0" z="0.0" w="0.0" />
-		  <Item name="dirtFactor" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
-		  <Item name="dirtRoughness" type="Vector" x="0.3" y="0.0" z="0.0" w="0.0" />
-		  <Item name="DirtBlend" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="dirtfactor" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="dirtroughness" type="Vector" x="0.3" y="0.0" z="0.0" w="0.0" />
+		  <Item name="dirtblend" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
 		  <Item name="fresnel" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
 		  <Item name="specmapintmask" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
 		  <Item name="tintoverride" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
@@ -10377,7 +10377,7 @@
 		  <Item name="heightScale" type="Vector" x="0.03" y="0.0" z="0.0" w="0.0" />
 		  <Item name="heightBias" type="Vector" x="0.015" y="0.0" z="0.0" w="0.0" />
 		  <Item name="parallaxSelfShadowAmount" type="Vector" x="0.95" y="0.0" z="0.0" w="0.0" />
-		  <Item name="Diffuse2ModSpec" type="Vector" x="0.8" y="0.0" z="0.0" w="0.0" />
+		  <Item name="diffuse2modspec" type="Vector" x="0.8" y="0.0" z="0.0" w="0.0" />
 		  <Item name="wetnessmultiplier" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />		  
 		  <Item name="porosity" type="Vector" x="0.5" y="0.0" z="0.0" w="0.0" />
 		  <Item name="usetessellation" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
@@ -10450,9 +10450,9 @@
 		  <Item name="detailsettings" type="Vector" x="0.0" y="1.0" z="24.0" w="24.0" />
 		  <Item name="detailindexoverride" type="Vector" x="-1.0" y="0.0" z="0.0" w="0.0" />
 		  <Item name="parallaxScaleBias" type="Vector" x="0.03" y="0.0" z="0.0" w="0.0" />
-		  <Item name="dirtFactor" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
-		  <Item name="dirtRoughness" type="Vector" x="0.3" y="0.0" z="0.0" w="0.0" />
-		  <Item name="DirtBlend" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="dirtfactor" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="dirtroughness" type="Vector" x="0.3" y="0.0" z="0.0" w="0.0" />
+		  <Item name="dirtblend" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
 		  <Item name="fresnel" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
 		  <Item name="specmapintmask" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
 		  <Item name="tintoverride" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
@@ -10475,7 +10475,7 @@
 		  <Item name="heightScale" type="Vector" x="0.03" y="0.0" z="0.0" w="0.0" />
 		  <Item name="heightBias" type="Vector" x="0.015" y="0.0" z="0.0" w="0.0" />
 		  <Item name="parallaxSelfShadowAmount" type="Vector" x="0.45" y="0.0" z="0.0" w="0.0" />
-		  <Item name="Diffuse2ModSpec" type="Vector" x="0.8" y="0.0" z="0.0" w="0.0" />
+		  <Item name="diffuse2modspec" type="Vector" x="0.8" y="0.0" z="0.0" w="0.0" />
 		  <Item name="wetnessmultiplier" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />		  
 		  <Item name="porosity" type="Vector" x="0.5" y="0.0" z="0.0" w="0.0" />
 		  <Item name="usetessellation" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
@@ -10543,9 +10543,9 @@
 		  <Item name="tintpaletteselector" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
 		  <Item name="detailsettings" type="Vector" x="0.0" y="1.0" z="24.0" w="24.0" />
 		  <Item name="detailindexoverride" type="Vector" x="-1.0" y="0.0" z="0.0" w="0.0" />
-		  <Item name="dirtFactor" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
-		  <Item name="dirtRoughness" type="Vector" x="0.3" y="0.0" z="0.0" w="0.0" />
-		  <Item name="DirtBlend" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="dirtfactor" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="dirtroughness" type="Vector" x="0.3" y="0.0" z="0.0" w="0.0" />
+		  <Item name="dirtblend" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
 		  <Item name="fresnel" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
 		  <Item name="specmapintmask" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
 		  <Item name="tintoverride" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
@@ -10565,7 +10565,7 @@
 		  <Item name="pbrdetail_ao" type="Vector" x="0.0" yy="0.0" z="0.0" w="0.0" />
 		  <Item name="pbrdetail_translucency" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
 		  <Item name="bumpiness" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
-		  <Item name="Diffuse2ModSpec" type="Vector" x="0.8" y="0.0" z="0.0" w="0.0" />
+		  <Item name="diffuse2modspec" type="Vector" x="0.8" y="0.0" z="0.0" w="0.0" />
 		  <Item name="wetnessmultiplier" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />		  
 		  <Item name="porosity" type="Vector" x="0.5" y="0.0" z="0.0" w="0.0" />
 		  <Item name="usetessellation" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
