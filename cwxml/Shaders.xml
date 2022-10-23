@@ -9215,11 +9215,13 @@
     <TexCoord1 />
     <TexCoord2 />
     <Tangent />
+    <Tangent1 />
    </Item>
    <Item type="GTAV1">
     <Position />
 	<Normal />
     <Tangent />
+    <Tangent1 />
     <Colour0 />
     <Colour1 />
     <TexCoord0 />
@@ -9232,15 +9234,16 @@
 		  <Item name="lyr0diffusetex" type="Texture" />
           <Item name="lyr0normaltex" type="Texture" />
           <Item name="lyr0materialatex" type="Texture" />
-          <Item name="lyr0materiblatex" type="Texture" />
+          <Item name="lyr0materialbtex" type="Texture" />
           <Item name="lyr1diffusetex" type="Texture" />
           <Item name="lyr1normaltex" type="Texture" />
           <Item name="lyr1materialatex" type="Texture" />
-          <Item name="lyr1materiblatex" type="Texture" /> 
+          <Item name="lyr1materialbtex" type="Texture" /> 
           <Item name="dirtdiffusetex" type="Texture" /> 
           <Item name="controltexturetex" type="Texture" /> 
           <Item name="aotexturetex" type="Texture" /> 
           <Item name="detailtexarrayn" type="Texture" />
+          <Item name="tintpaletteselector" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
 		  <Item name="lyr0fresnel" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
 		  <Item name="lyr0bumpiness" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
 		  <Item name="lyr0tint" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
