@@ -11355,6 +11355,15 @@
    <Item type="GTAV1">
     <Position />
     <Normal />
+    <Colour0 />
+    <TexCoord0 />
+    <TexCoord1 />
+    <TexCoord2 />
+    <Tangent />
+   </Item>
+   <Item type="GTAV1">
+    <Position />
+    <Normal />
     <Tangent />
     <Colour0 />
     <TexCoord0 />
@@ -11516,6 +11525,17 @@
   </FileName>
   <RenderBucket>0</RenderBucket>
   <Layout>
+  <Item type="GTAV1">
+    <Position />
+    <Normal />
+    <Colour1 />
+    <Colour2 />
+    <TexCoord0 />
+    <TexCoord1 />
+    <TexCoord2 />
+    <Tangent />
+    <Tangent1 />
+   </Item>
    <Item type="GTAV1">
     <Position />
     <Normal />
@@ -11576,6 +11596,17 @@
   </FileName>
   <RenderBucket>0</RenderBucket>
   <Layout>
+  <Item type="GTAV1">
+    <Position />
+    <Normal />
+    <Colour1 />
+    <Colour2 />
+    <TexCoord0 />
+    <TexCoord1 />
+    <TexCoord2 />
+    <Tangent />
+    <Tangent1 />
+   </Item>
    <Item type="GTAV1">
     <Position />
     <Normal />
@@ -11641,6 +11672,17 @@
    <Item type="GTAV1">
     <Position />
     <Normal />
+    <Colour1 />
+    <Colour2 />
+    <TexCoord0 />
+    <TexCoord1 />
+    <TexCoord2 />
+    <Tangent />
+    <Tangent1 />
+   </Item>
+   <Item type="GTAV1">
+    <Position />
+    <Normal />
     <Tangent />
     <Tangent1 />
     <Colour1 />
@@ -11700,6 +11742,17 @@
   </FileName>
   <RenderBucket>0</RenderBucket>
   <Layout>
+  <Item type="GTAV1">
+    <Position />
+    <Normal />
+    <Colour1 />
+    <Colour2 />
+    <TexCoord0 />
+    <TexCoord1 />
+    <TexCoord2 />
+    <Tangent />
+    <Tangent1 />
+   </Item>
    <Item type="GTAV1">
     <Position />
     <Normal />
@@ -11767,6 +11820,17 @@
   </FileName>
   <RenderBucket>0</RenderBucket>
   <Layout>
+  <Item type="GTAV1">
+    <Position />
+    <Normal />
+    <Colour1 />
+    <Colour2 />
+    <TexCoord0 />
+    <TexCoord1 />
+    <TexCoord2 />
+    <Tangent />
+    <Tangent1 />
+   </Item>
    <Item type="GTAV1">
     <Position />
     <Normal />
@@ -11833,6 +11897,17 @@
   </FileName>
   <RenderBucket>0</RenderBucket>
   <Layout>
+  <Item type="GTAV1">
+    <Position />
+    <Normal />
+    <Colour1 />
+    <Colour2 />
+    <TexCoord0 />
+    <TexCoord1 />
+    <TexCoord2 />
+    <Tangent />
+    <Tangent1 />
+   </Item>
    <Item type="GTAV1">
     <Position />
     <Normal />
@@ -11901,6 +11976,17 @@
   </FileName>
   <RenderBucket>0</RenderBucket>
   <Layout>
+  <Item type="GTAV1">
+    <Position />
+    <Normal />
+    <Colour1 />
+    <Colour2 />
+    <TexCoord0 />
+    <TexCoord1 />
+    <TexCoord2 />
+    <Tangent />
+    <Tangent1 />
+   </Item>
    <Item type="GTAV1">
     <Position />
     <Normal />
@@ -11968,6 +12054,17 @@
   </FileName>
   <RenderBucket>0</RenderBucket>
   <Layout>
+  <Item type="GTAV1">
+    <Position />
+    <Normal />
+    <Colour1 />
+    <Colour2 />
+    <TexCoord0 />
+    <TexCoord1 />
+    <TexCoord2 />
+    <Tangent />
+    <Tangent1 />
+   </Item>
    <Item type="GTAV1">
     <Position />
     <Normal />
@@ -12029,6 +12126,17 @@
   </FileName>
   <RenderBucket>0</RenderBucket>
   <Layout>
+  <Item type="GTAV1">
+    <Position />
+    <Normal />
+    <Colour1 />
+    <Colour2 />
+    <TexCoord0 />
+    <TexCoord1 />
+    <TexCoord2 />
+    <Tangent />
+    <Tangent1 />
+   </Item>
    <Item type="GTAV1">
     <Position />
     <Normal />
@@ -12090,6 +12198,17 @@
   </FileName>
   <RenderBucket>0</RenderBucket>
   <Layout>
+  <Item type="GTAV1">
+    <Position />
+    <Normal />
+    <Tangent />
+    <Tangent1 />
+    <Colour1 />
+    <Colour2 />
+    <TexCoord0 />
+    <TexCoord1 />
+    <TexCoord2 />
+   </Item>
    <Item type="GTAV1">
     <Position />
     <Normal />
@@ -12156,6 +12275,17 @@
   <Layout>
    <Item type="GTAV1">
     <Position />
+    <Normal />  
+    <Colour1 />
+    <Colour2 />
+    <TexCoord0 />
+    <TexCoord1 />
+    <TexCoord2 />
+    <Tangent />
+    <Tangent1 />
+   </Item>
+   <Item type="GTAV1">
+    <Position />
     <Normal />
     <Tangent />
     <Tangent1 />
@@ -12218,6 +12348,17 @@
   </FileName>
   <RenderBucket>0</RenderBucket>
   <Layout>
+  <Item type="GTAV1">
+    <Position />
+    <Normal />
+    <Colour1 />
+    <Colour2 />
+    <TexCoord0 />
+    <TexCoord1 />
+    <TexCoord2 />
+    <Tangent />
+    <Tangent1 />
+   </Item>
    <Item type="GTAV1">
     <Position />
     <Normal />
@@ -12288,6 +12429,17 @@
    <Item type="GTAV1">
     <Position />
     <Normal />
+    <Colour1 />
+    <Colour2 />
+    <TexCoord0 />
+    <TexCoord1 />
+    <TexCoord2 />
+    <Tangent />
+    <Tangent1 />
+   </Item>
+   <Item type="GTAV1">
+    <Position />
+    <Normal />
     <Tangent />
     <Tangent1 />
     <Colour1 />
@@ -12352,6 +12504,17 @@
   </FileName>
   <RenderBucket>0</RenderBucket>
   <Layout>
+  <Item type="GTAV1">
+    <Position />
+    <Normal />
+    <Colour1 />
+    <Colour2 />
+    <TexCoord0 />
+    <TexCoord1 />
+    <TexCoord2 />
+    <Tangent />
+    <Tangent1 />
+   </Item>
    <Item type="GTAV1">
     <Position />
     <Normal />
@@ -12419,6 +12582,17 @@
   </FileName>
   <RenderBucket>0</RenderBucket>
   <Layout>
+  <Item type="GTAV1">
+    <Position />
+    <Normal />
+    <Colour1 />
+    <Colour2 />
+    <TexCoord0 />
+    <TexCoord1 />
+    <TexCoord2 />
+    <Tangent />
+    <Tangent1 />
+   </Item>
    <Item type="GTAV1">
     <Position />
     <Normal />
@@ -12486,6 +12660,16 @@
   </FileName>
   <RenderBucket>0</RenderBucket>
   <Layout>
+   <Position />
+    <Normal />
+    <Colour1 />
+    <Colour2 />
+    <TexCoord0 />
+    <TexCoord1 />
+    <TexCoord2 />
+    <Tangent />
+    <Tangent1 />
+   </Item>
    <Item type="GTAV1">
     <Position />
     <Normal />
@@ -12553,6 +12737,17 @@
   </FileName>
   <RenderBucket>0</RenderBucket>
   <Layout>
+  <Item type="GTAV1">
+    <Position />
+    <Normal />
+    <Colour1 />
+    <Colour2 />
+    <TexCoord0 />
+    <TexCoord1 />
+    <TexCoord2 />
+    <Tangent />
+    <Tangent1 />
+   </Item>
    <Item type="GTAV1">
     <Position />
     <Normal />
