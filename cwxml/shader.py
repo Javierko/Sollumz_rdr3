@@ -88,7 +88,11 @@ class ShaderManager:
                 "terrain_cb_w_4lyr_pxm.sps", "terrain_cb_w_4lyr_cm_pxm.sps", "terrain_cb_w_4lyr_cm_tnt.sps", "terrain_cb_w_4lyr_cm_pxm_tnt.sps", "terrain_cb_w_4lyr_cm.sps",
                 "terrain_cb_w_4lyr_2tex.sps", "terrain_cb_w_4lyr_2tex_blend.sps", "terrain_cb_w_4lyr_2tex_blend_lod.sps", "terrain_cb_w_4lyr_2tex_blend_pxm.sps",
                 "terrain_cb_w_4lyr_2tex_blend_pxm_spm.sps", "terrain_cb_w_4lyr_2tex_pxm.sps", "terrain_cb_4lyr.sps", "terrain_cb_w_4lyr_spec_int_pxm.sps",
-                "terrain_cb_w_4lyr_spec_int.sps", "terrain_cb_4lyr_lod.sps"]
+                "terrain_cb_w_4lyr_spec_int.sps", "terrain_cb_4lyr_lod.sps", "terrain_lod_2lyr_grass_wetness", "terrain_lod_2lyr", "terrain_lod_grass_wetness", "terrain_slod", "terrain_uber_2lyr_pxm_hbb", 
+                "terrain_uber_3+1lyr_snow_dm_hbb", "terrain_uber_4lyr_hbb", "terrain_uber_4lyr_mud_dm_hbb", "terrain_uber_4lyr_pxm_hbb", "terrain_uber_4lyr_pxm", "terrain_uber_4lyr_quicksand_dm_hbb", 
+                "terrain_uber_4lyr_snow_dm_hbb", "terrain_uber_4lyr_snowglt_pxm_hbb", "terrain_uber_4lyr_snowglt_spx_dm_hbb", "terrain_uber_4lyr_spx_dm_hbb_1111", 
+                "terrain_uber_4lyr_spx_dm_hbb_1121", "terrain_uber_4lyr_spx_dm_hbb_1221", "terrain_uber_4lyr_spx_dm_hbb_2111", "terrain_uber_4lyr_spx_dm_hbb_2221", 
+                "terrain_uber_4lyr_spx_dm_hbb", "terrain_uber_4lyr"]
     mask_only_terrains = ["terrain_cb_w_4lyr_cm.sps", "terrain_cb_w_4lyr_cm_tnt.sps",
                           "terrain_cb_w_4lyr_cm_pxm_tnt.sps", "terrain_cb_w_4lyr_cm_pxm.sps"]
     cutouts = ["cutout.sps", "cutout_um.sps", "cutout_tnt.sps", "cutout_fence.sps", "cutout_fence_normal.sps", "cutout_hard.sps", "cutout_spec_tnt.sps", "normal_cutout.sps",
