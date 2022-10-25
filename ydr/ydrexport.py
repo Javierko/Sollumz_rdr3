@@ -273,7 +273,7 @@ def get_mesh_buffers(obj, mesh, vertex_type, bones=None):
                         mesh_layer_idx += 1
                     else:
                         kwargs[key] = (0, 0)
-            for i in range(2):
+            for i in range(3):
                 if f"colour{i}" in vertex_type._fields:
                     key = f"colour{i}"
                     if i < len(mesh.vertex_colors):
