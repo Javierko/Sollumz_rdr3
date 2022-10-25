@@ -11528,8 +11528,8 @@
   <Item type="GTAV1">
     <Position />
     <Normal />
+    <Colour0 />
     <Colour1 />
-    <Colour2 />
     <TexCoord0 />
     <TexCoord1 />
     <TexCoord2 />
@@ -11599,8 +11599,8 @@
   <Item type="GTAV1">
     <Position />
     <Normal />
+    <Colour0 />
     <Colour1 />
-    <Colour2 />
     <TexCoord0 />
     <TexCoord1 />
     <TexCoord2 />
@@ -11672,8 +11672,8 @@
    <Item type="GTAV1">
     <Position />
     <Normal />
+    <Colour0 />
     <Colour1 />
-    <Colour2 />
     <TexCoord0 />
     <TexCoord1 />
     <TexCoord2 />
@@ -11745,8 +11745,8 @@
   <Item type="GTAV1">
     <Position />
     <Normal />
+    <Colour0 />
     <Colour1 />
-    <Colour2 />
     <TexCoord0 />
     <TexCoord1 />
     <TexCoord2 />
@@ -11823,8 +11823,8 @@
   <Item type="GTAV1">
     <Position />
     <Normal />
+    <Colour0 />
     <Colour1 />
-    <Colour2 />
     <TexCoord0 />
     <TexCoord1 />
     <TexCoord2 />
@@ -11900,8 +11900,8 @@
   <Item type="GTAV1">
     <Position />
     <Normal />
+    <Colour0 />
     <Colour1 />
-    <Colour2 />
     <TexCoord0 />
     <TexCoord1 />
     <TexCoord2 />
@@ -11979,8 +11979,8 @@
   <Item type="GTAV1">
     <Position />
     <Normal />
+    <Colour0 />
     <Colour1 />
-    <Colour2 />
     <TexCoord0 />
     <TexCoord1 />
     <TexCoord2 />
@@ -12057,8 +12057,8 @@
   <Item type="GTAV1">
     <Position />
     <Normal />
+    <Colour0 />
     <Colour1 />
-    <Colour2 />
     <TexCoord0 />
     <TexCoord1 />
     <TexCoord2 />
@@ -12129,8 +12129,8 @@
   <Item type="GTAV1">
     <Position />
     <Normal />
+    <Colour0 />
     <Colour1 />
-    <Colour2 />
     <TexCoord0 />
     <TexCoord1 />
     <TexCoord2 />
@@ -12201,13 +12201,13 @@
   <Item type="GTAV1">
     <Position />
     <Normal />
-    <Tangent />
-    <Tangent1 />
+    <Colour0 />
     <Colour1 />
-    <Colour2 />
     <TexCoord0 />
     <TexCoord1 />
     <TexCoord2 />
+    <Tangent />
+    <Tangent1 />
    </Item>
    <Item type="GTAV1">
     <Position />
@@ -12351,8 +12351,8 @@
   <Item type="GTAV1">
     <Position />
     <Normal />
+    <Colour0 />
     <Colour1 />
-    <Colour2 />
     <TexCoord0 />
     <TexCoord1 />
     <TexCoord2 />
@@ -12429,8 +12429,8 @@
    <Item type="GTAV1">
     <Position />
     <Normal />
+    <Colour0 />
     <Colour1 />
-    <Colour2 />
     <TexCoord0 />
     <TexCoord1 />
     <TexCoord2 />
@@ -12507,8 +12507,8 @@
   <Item type="GTAV1">
     <Position />
     <Normal />
+    <Colour0 />
     <Colour1 />
-    <Colour2 />
     <TexCoord0 />
     <TexCoord1 />
     <TexCoord2 />
@@ -12585,8 +12585,8 @@
   <Item type="GTAV1">
     <Position />
     <Normal />
+    <Colour0 />
     <Colour1 />
-    <Colour2 />
     <TexCoord0 />
     <TexCoord1 />
     <TexCoord2 />
@@ -12663,8 +12663,8 @@
   <Item type="GTAV1">
     <Position />
     <Normal />
+    <Colour0 />
     <Colour1 />
-    <Colour2 />
     <TexCoord0 />
     <TexCoord1 />
     <TexCoord2 />
@@ -12741,8 +12741,8 @@
   <Item type="GTAV1">
     <Position />
     <Normal />
+    <Colour0 />
     <Colour1 />
-    <Colour2 />
     <TexCoord0 />
     <TexCoord1 />
     <TexCoord2 />
