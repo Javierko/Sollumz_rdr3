@@ -11345,4 +11345,553 @@
   </Layout>
   <Parameters />
  </Item>
+ <Item>
+  <Name>terrain_decal</Name>
+  <FileName>
+   <Item>terrain_decal.sps</Item>
+  </FileName>
+  <RenderBucket>2</RenderBucket>
+  <Layout>
+   <Item type="GTAV1">
+    <Position />
+    <Normal />
+    <Tangent />
+    <Colour0 />
+    <TexCoord0 />
+    <TexCoord1 />
+    <TexCoord2 />
+   </Item>
+  </Layout>
+  <Parameters>
+    <Item name="tintpalettetex" type="Texture" />
+    <Item name="diffusetex" type="Texture" />
+    <Item name="detailtexarrayn" type="Texture" />
+    <Item name="bumptex" type="Texture" />
+    <Item name="speculartex" type="Texture" />
+    <Item name="tintpaletteselector" type="Vector" x="0" y="0" z="0" w="0" />
+    <Item name="detailsettings" type="Vector" x="0" y="0" z="0" w="0" />
+    <Item name="detailindexoverride" type="Vector" x="0" y="0" z="0" w="0" />
+    <Item name="parallaxscalebias" type="Vector" x="0" y="0" z="0" w="0" />
+    <Item name="fresnel" type="Vector" x="0" y="0" z="0" w="0" />
+    <Item name="specmapintmask" type="Vector" x="0" y="0" z="0" w="0" />
+    <Item name="tintoverride" type="Vector" x="0" y="0" z="0" w="0" />
+    <Item name="pbrglassiness" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+    <Item name="pbrcavityrange" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+    <Item name="pbrtweak_metallic" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+    <Item name="pbrtweak_sheen" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+    <Item name="pbrtweak_roughness" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+    <Item name="pbrtweak_ao" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+    <Item name="pbrtweak_translucency" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+    <Item name="pbrtweak_fresnel" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+    <Item name="pbrtweak_detail" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+    <Item name="pbrtweak_detailIndex_" type="Vector" x="-1.0" y="0.0" z="0.0" w="0.0" />
+    <Item name="pbrdetail_metallic" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+    <Item name="pbrdetail_sheen" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+    <Item name="pbrdetail_roughness" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+    <Item name="pbrdetail_ao" type="Vector" x="0.0" yy="0.0" z="0.0" w="0.0" />
+    <Item name="pbrdetail_translucency" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+    <Item name="bumpiness" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+    <Item name="heightscale" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+    <Item name="heightbias" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+    <Item name="parallaxselfshadowamount" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+    <Item name="wetnessmultiplier" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+    <Item name="porosity" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+    <Item name="usetessellation" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+    <Item name="hardalphablend" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+    <Item name="blendsoftness" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+    <Item name="tddetailindex" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+    <Item name="tintblendamount" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+    <Item name="tintintensity" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+    <Item name="heightblendmin" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+    <Item name="heightblendmax" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+    <Item name="terrainfresnel" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+    <Item name="terraintranslucency" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+    <Item name="marktaaghostingbit" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+    <Item name="usepaintedwetness" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+    <Item name="haspuddleswitch" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+    <Item name="puddleheightbias" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+    <Item name="puddlemaskscale" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+    <Item name="decalblendopacitygbuffer0" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+    <Item name="decalblendopacitygbuffer1" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+    <Item name="decalblendopacitygbuffer2" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+    <Item name="decalblendopacitygbuffer3" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+  </Parameters>
+ </Item>
+ <Item>
+  <Name>terrain_lod_2lyr_grass_wetness</Name>
+  <FileName>
+   <Item>terrain_lod_2lyr_grass_wetness.sps</Item>
+  </FileName>
+  <RenderBucket>0</RenderBucket>
+  <Layout>
+   <Item type="GTAV1">
+    <Position />
+    <Normal />
+    <Colour1 />
+    <TexCoord0 />
+    <TexCoord1 />
+   </Item>
+  </Layout>
+  <Parameters>
+    <Item name="diffusetex" type="Texture" />
+    <Item name="diffusetex2" type="Texture" />
+    <Item name="bumptexture" type="Texture" />
+    <Item name="bumptexture2" type="Texture" />
+    <Item name="speculartexture" type="Texture" />
+    <Item name="speculartexture2" type="Texture" />
+    <Item name="materialbtexture" type="Texture" />
+    <Item name="materialbtexture2" type="Texture" />
+    <Item name="grassnoisetilescale" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+  </Parameters>
+ </Item>
+ <Item>
+  <Name>terrain_lod_2lyr</Name>
+  <FileName>
+   <Item>terrain_lod_2lyr.sps</Item>
+  </FileName>
+  <RenderBucket>0</RenderBucket>
+  <Layout>
+   <Item type="GTAV1">
+    <Position />
+    <Normal />
+    <Colour1 />
+    <TexCoord0 />
+    <TexCoord1 />
+   </Item>
+  </Layout>
+  <Parameters>
+    <Item name="diffusetex" type="Texture" />
+    <Item name="diffusetex2" type="Texture" />
+    <Item name="bumptexture" type="Texture" />
+    <Item name="bumptexture2" type="Texture" />
+    <Item name="speculartexture" type="Texture" />
+    <Item name="speculartexture2" type="Texture" />
+  </Parameters>
+ </Item>
+ <Item>
+  <Name>terrain_lod_grass_wetness</Name>
+  <FileName>
+   <Item>terrain_lod_grass_wetness.sps</Item>
+  </FileName>
+  <RenderBucket>0</RenderBucket>
+  <Layout>
+   <Item type="GTAV1">
+    <Position />
+    <Normal />
+    <Colour1 />
+    <TexCoord0 />
+    <TexCoord1 />
+   </Item>
+  </Layout>
+  <Parameters>
+    <Item name="diffusetex" type="Texture" />
+    <Item name="bumptexture" type="Texture" />
+    <Item name="speculartexture" type="Texture" />
+    <Item name="materialbtexture" type="Texture" />
+    <Item name="grassnoisetilescale" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+  </Parameters>
+ </Item>
+ <Item>
+  <Name>terrain_slod</Name>
+  <FileName>
+   <Item>terrain_slod.sps</Item>
+  </FileName>
+  <RenderBucket>0</RenderBucket>
+  <Layout>
+   <Item type="GTAV1">
+    <Position />
+    <TexCoord0 />
+   </Item>
+  </Layout>
+  <Parameters>
+    <Item name="diffusetex" type="Texture" />
+    <Item name="bumptexture" type="Texture" />
+    <Item name="speculartexture" type="Texture" />
+  </Parameters>
+ </Item>
+ <Item>
+  <Name>terrain_uber_2lyr_pxm_hbb</Name>
+  <FileName>
+   <Item>terrain_uber_2lyr_pxm_hbb.sps</Item>
+  </FileName>
+  <RenderBucket>0</RenderBucket>
+  <Layout>
+   <Item type="GTAV1">
+    <Position />
+    <Normal />
+    <Tangent />
+    <Tangent1 />
+    <Colour1 />
+    <Colour2 />
+    <TexCoord0 />
+    <TexCoord1 />
+    <TexCoord2 />
+   </Item>
+  </Layout>
+  <Parameters>
+    <Item name="lookuptexture" type="Texture" />
+    <Item name="diffusetexture_layer0" type="Texture" />
+    <Item name="bumptexture_layer0" type="Texture" />
+    <Item name="materialmapatexture_layer0" type="Texture" />
+    <Item name="diffusetexture_layer1" type="Texture" />
+    <Item name="bumptexture_layer1" type="Texture" />
+    <Item name="materialmapatexture_layer1" type="Texture" />
+    <Item name="tinttexture" type="Texture" />
+    <Item name="tintbumptexture" type="Texture" />
+    <Item name="uvscalebias" type="Parameter" x="128" y="128" z="0" w="0" />
+    <Item name="bumpiness" type="Parameter" x="1" y="1" z="1" w="1" />
+    <Item name="wetness" type="Parameter" x="0" y="0" z="0" w="0" />
+    <Item name="porosity" type="Parameter" x="0.2" y="0.2" z="0.2" w="0.2" />
+    <Item name="terrainfresnel" type="Parameter" x="0.96" y="0.96" z="0.93" w="0.96" />
+    <Item name="pxmenabled" type="Parameter" x="1" y="0" z="0" w="0" />
+    <Item name="pxmscales1234" type="Parameter" x="1" y="1" z="1" w="1" />
+    <Item name="pxmbiases1234" type="Parameter" x="0" y="0.5" z="0.5" w="0.5" />
+    <Item name="puddleheightbias" type="Parameter" x="0" y="0" z="0" w="0" />
+    <Item name="puddlemaskscale" type="Parameter" x="2" y="0" z="0" w="0" />
+    <Item name="tintintensity" type="Parameter" x="1.0" y="1.0" z="1.0" w="1.0" />
+    <Item name="tintblendamount" type="Parameter" x="1" y="1" z="0.1" w="0.1" />
+    <Item name="lookupuvset" type="Parameter" x="1" y="0" z="0" w="0" />
+    <Item name="uvset" type="Parameter" x="2" y="1" z="1" w="1" />
+    <Item name="clamplookuptexture" type="Parameter" x="1" y="0" z="0" w="0" />
+    <Item name="hbbrangescale1234" type="Parameter" x="1" y="1" z="1" w="1" />
+    <Item name="hbbrangebias1234" type="Parameter" x="0" y="0" z="0" w="0" />
+    <Item name="blendsoftness" type="Parameter" x="0.4" y="0.2" z="0" w="0" />
+    <Item name="detailindices" type="Parameter" x="0" y="0" z="0" w="0" />
+    <Item name="detailsettings0" type="Parameter" x="0" y="0" z="24" w="24" />
+    <Item name="detailsettings1" type="Parameter" x="0" y="0" z="24" w="24" />
+    <Item name="detailsettings2" type="Parameter" x="0" y="0" z="24" w="24" />
+    <Item name="detailsettings3" type="Parameter" x="0" y="0" z="24" w="24" />
+    <Item name="parallaxselfshadowamount" type="Parameter" x="0.95" y="0" z="0" w="0" />
+    <Item name="usetessellation" type="Parameter" x="0" y="0" z="0" w="0" />
+    <Item name="pbrtweak_roughness" type="Parameter" x="0" y="0" z="0" w="0" />
+    <Item name="pbrtweak_ao" type="Parameter" x="0" y="0" z="0" w="0" />
+    <Item name="pbrtweak_detail" type="Parameter" x="0" y="0" z="0" w="0" />
+    <Item name="pbrtweak_detailindex_" type="Parameter" x="-1" y="0" z="0" w="0" />
+  </Parameters>
+ </Item>
+ <Item>
+  <Name>terrain_uber_3+1lyr_snow_dm_hbb</Name>
+  <FileName>
+   <Item>terrain_uber_3+1lyr_snow_dm_hbb.sps</Item>
+  </FileName>
+  <RenderBucket>0</RenderBucket>
+  <Layout>
+   <Item type="GTAV1">
+    <Position />
+    <Normal />
+    <Tangent />
+    <Tangent1 />
+    <Colour1 />
+    <Colour2 />
+    <TexCoord0 />
+    <TexCoord1 />
+    <TexCoord2 />
+   </Item>
+  </Layout>
+  <Parameters>
+    <Item name="lookuptexture" type="Texture" />
+    <Item name="diffusetexture_layer0" type="Texture" />
+    <Item name="bumptexture_layer0" type="Texture" />
+    <Item name="materialmapatexture_layer0" type="Texture" />
+    <Item name="diffusetexture_layer1" type="Texture" />
+    <Item name="bumptexture_layer1" type="Texture" />
+    <Item name="materialmapatexture_layer1" type="Texture" />
+    <Item name="diffusetexture_layer2" type="Texture" />
+    <Item name="bumptexture_layer2" type="Texture" />
+    <Item name="materialmapatexture_layer2" type="Texture" />
+    <Item name="diffusetexture_layer3" type="Texture" />
+    <Item name="bumptexture_layer3" type="Texture" />
+    <Item name="materialmapatexture_layer3" type="Texture" />
+    <Item name="tinttexture" type="Texture" />
+    <Item name="tintbumptexture" type="Texture" />
+    <Item name="heighttexturex" type="Texture" />
+    <Item name="uvscalebias" type="Parameter" x="128" y="128" z="0" w="0" />
+    <Item name="bumpiness" type="Parameter" x="1" y="1" z="1" w="0.5" />
+    <Item name="wetness" type="Parameter" x="0" y="0" z="0" w="0" />
+    <Item name="porosity" type="Parameter" x="0" y="0" z="0" w="0" />
+    <Item name="terrainfresnel" type="Parameter" x="0.96" y="0.96" z="0.96" w="0.96" />
+    <Item name="tintintensity" type="Parameter" x="0" y="1.070478" z="1.06624" w="0" />
+    <Item name="tintblendamount" type="Parameter" x="0" y="0" z="0" w="0" />
+    <Item name="lookupuvset" type="Parameter" x="3" y="0" z="0" w="0" />
+    <Item name="uvset" type="Parameter" x="1" y="1" z="1" w="1" />
+    <Item name="clamplookuptexture" type="Parameter" x="0" y="0" z="0" w="0" />
+    <Item name="hbbrangescale1234" type="Parameter" x="1" y="1" z="1" w="1" />
+    <Item name="hbbrangebias1234" type="Parameter" x="0" y="0" z="0" w="0" />
+    <Item name="blendsoftness" type="Parameter" x="0.5" y="0.6" z="0.6" w="0.9" />
+    <Item name="detailindices" type="Parameter" x="14" y="8" z="6" w="6" />
+    <Item name="detailsettings0" type="Parameter" x="0.3" y="0.5" z="12" w="12" />
+    <Item name="detailsettings1" type="Parameter" x="0.5" y="0.5" z="24" w="24" />
+    <Item name="detailsettings2" type="Parameter" x="0.5" y="0.5" z="12" w="12" />
+    <Item name="detailsettings3" type="Parameter" x="0.5" y="0.5" z="12" w="12" />
+    <Item name="snowtrailbottomthreshold" type="Parameter" x="-0.02" y="0" z="0" w="0" />
+    <Item name="usetessellation" type="Parameter" x="1" y="0" z="0" w="0" />
+    <Item name="pbrtweak_roughness" type="Parameter" x="0" y="0" z="0" w="0" />
+    <Item name="pbrtweak_ao" type="Parameter" x="0" y="0" z="0" w="0" />
+    <Item name="pbrtweak_detail" type="Parameter" x="0" y="0" z="0" w="0" />
+    <Item name="pbrtweak_detailindex_" type="Parameter" x="-1" y="0" z="0" w="0" />
+  </Parameters>
+ </Item>
+ <Item>
+  <Name>terrain_uber_4lyr</Name>
+  <FileName>
+   <Item>terrain_uber_4lyr.sps</Item>
+  </FileName>
+  <RenderBucket>0</RenderBucket>
+  <Layout>
+   <Item type="GTAV1">
+    <Position />
+    <Normal />
+    <Tangent />
+    <Tangent1 />
+    <Colour1 />
+    <Colour2 />
+    <TexCoord0 />
+    <TexCoord1 />
+    <TexCoord2 />
+   </Item>
+  </Layout>
+  <Parameters>
+    <Item name="lookuptexture" type="Texture" />
+    <Item name="diffusetexture_layer0" type="Texture" />
+    <Item name="bumptexture_layer0" type="Texture" />
+    <Item name="materialmapatexture_layer0" type="Texture" />
+    <Item name="diffusetexture_layer1" type="Texture" />
+    <Item name="bumptexture_layer1" type="Texture" />
+    <Item name="materialmapatexture_layer1" type="Texture" />
+    <Item name="diffusetexture_layer2" type="Texture" />
+    <Item name="bumptexture_layer2" type="Texture" />
+    <Item name="detailtexarrayn" type="Texture" />
+    <Item name="materialmapatexture_layer2" type="Texture" />
+    <Item name="diffusetexture_layer3" type="Texture" />
+    <Item name="bumptexture_layer3" type="Texture" />
+    <Item name="materialmapatexture_layer3" type="Texture" />
+    <Item name="tinttexture" type="Texture" />
+    <Item name="tintbumptexture" type="Texture" />
+    <Item name="uvscalebias" type="Parameter" x="128" y="128" z="0" w="0" />
+    <Item name="bumpiness" type="Parameter" x="1" y="1" z="1" w="0.5" />
+    <Item name="wetness" type="Parameter" x="0" y="0" z="0" w="0" />
+    <Item name="porosity" type="Parameter" x="0" y="0" z="0" w="0" />
+    <Item name="terrainfresnel" type="Parameter" x="0.96" y="0.96" z="0.96" w="0.96" />
+    <Item name="tintintensity" type="Parameter" x="0" y="1.070478" z="1.06624" w="0" />
+    <Item name="tintblendamount" type="Parameter" x="0" y="0" z="0" w="0" />
+    <Item name="lookupuvset" type="Parameter" x="3" y="0" z="0" w="0" />
+    <Item name="uvset" type="Parameter" x="1" y="1" z="1" w="1" />
+    <Item name="clamplookuptexture" type="Parameter" x="0" y="0" z="0" w="0" />
+    <Item name="hbbrangescale1234" type="Parameter" x="1" y="1" z="1" w="1" />
+    <Item name="hbbrangebias1234" type="Parameter" x="0" y="0" z="0" w="0" />
+    <Item name="blendsoftness" type="Parameter" x="0.5" y="0.6" z="0.6" w="0.9" />
+    <Item name="detailindices" type="Parameter" x="14" y="8" z="6" w="6" />
+    <Item name="detailsettings0" type="Parameter" x="0.3" y="0.5" z="12" w="12" />
+    <Item name="detailsettings1" type="Parameter" x="0.5" y="0.5" z="24" w="24" />
+    <Item name="detailsettings2" type="Parameter" x="0.5" y="0.5" z="12" w="12" />
+    <Item name="detailsettings3" type="Parameter" x="0.5" y="0.5" z="12" w="12" />
+    <Item name="useworldspacenormals" type="Parameter" x="1.0" y="0.0" z="0.0" w="0.0" />
+    <Item name="usetessellation" type="Parameter" x="1" y="0" z="0" w="0" />
+    <Item name="pbrtweak_roughness" type="Parameter" x="0" y="0" z="0" w="0" />
+    <Item name="pbrtweak_ao" type="Parameter" x="0" y="0" z="0" w="0" />
+    <Item name="pbrtweak_detail" type="Parameter" x="0" y="0" z="0" w="0" />
+    <Item name="pbrtweak_detailindex_" type="Parameter" x="-1" y="0" z="0" w="0" />
+  </Parameters>
+ </Item>
+ <Item>
+  <Name>terrain_uber_4lyr_mud_dm_hbb</Name>
+  <FileName>
+   <Item>terrain_uber_4lyr_mud_dm_hbb.sps</Item>
+  </FileName>
+  <RenderBucket>0</RenderBucket>
+  <Layout>
+   <Item type="GTAV1">
+    <Position />
+    <Normal />
+    <Tangent />
+    <Tangent1 />
+    <Colour1 />
+    <Colour2 />
+    <TexCoord0 />
+    <TexCoord1 />
+    <TexCoord2 />
+   </Item>
+  </Layout>
+  <Parameters>
+    <Item name="lookuptexture" type="Texture" />
+    <Item name="diffusetexture_layer0" type="Texture" />
+    <Item name="bumptexture_layer0" type="Texture" />
+    <Item name="materialmapatexture_layer0" type="Texture" />
+    <Item name="diffusetexture_layer1" type="Texture" />
+    <Item name="bumptexture_layer1" type="Texture" />
+    <Item name="materialmapatexture_layer1" type="Texture" />
+    <Item name="diffusetexture_layer2" type="Texture" />
+    <Item name="bumptexture_layer2" type="Texture" />
+    <Item name="materialmapatexture_layer2" type="Texture" />
+    <Item name="diffusetexture_layer3" type="Texture" />
+    <Item name="bumptexture_layer3" type="Texture" />
+    <Item name="materialmapatexture_layer3" type="Texture" />
+    <Item name="tinttexture" type="Texture" />
+    <Item name="tintbumptexture" type="Texture" />
+    <Item name="detailtexarrayn" type="Texture" />
+    <Item name="heighttexturex" type="Texture" />
+    <Item name="uvscalebias" type="Parameter" x="128" y="128" z="0" w="0" />
+    <Item name="bumpiness" type="Parameter" x="1" y="1" z="1" w="0.5" />
+    <Item name="wetness" type="Parameter" x="0" y="0" z="0" w="0" />
+    <Item name="porosity" type="Parameter" x="0" y="0" z="0" w="0" />
+    <Item name="terrainfresnel" type="Parameter" x="0.96" y="0.96" z="0.96" w="0.96" />
+    <Item name="pxmenabled" type="Parameter" x="0.96" y="0.96" z="0.96" w="0.96" />
+    <Item name="pxmscales1234" type="Parameter" x="0.96" y="0.96" z="0.96" w="0.96" />
+    <Item name="pxmbiases1234" type="Parameter" x="0.96" y="0.96" z="0.96" w="0.96" />
+    <Item name="puddleheightbias" type="Parameter" x="0" y="0" z="0" w="0" />
+    <Item name="puddlemaskscale" type="Parameter" x="2" y="0" z="0" w="0" />
+    <Item name="tintintensity" type="Parameter" x="0" y="1.070478" z="1.06624" w="0" />
+    <Item name="tintblendamount" type="Parameter" x="0" y="0" z="0" w="0" />
+    <Item name="lookupuvset" type="Parameter" x="3" y="0" z="0" w="0" />
+    <Item name="uvset" type="Parameter" x="1" y="1" z="1" w="1" />
+    <Item name="clamplookuptexture" type="Parameter" x="0" y="0" z="0" w="0" />
+    <Item name="hbbrangescale1234" type="Parameter" x="1" y="1" z="1" w="1" />
+    <Item name="hbbrangebias1234" type="Parameter" x="0" y="0" z="0" w="0" />
+    <Item name="blendsoftness" type="Parameter" x="0.5" y="0.6" z="0.6" w="0.9" />
+    <Item name="detailindices" type="Parameter" x="14" y="8" z="6" w="6" />
+    <Item name="detailsettings0" type="Parameter" x="0.3" y="0.5" z="12" w="12" />
+    <Item name="detailsettings1" type="Parameter" x="0.5" y="0.5" z="24" w="24" />
+    <Item name="detailsettings2" type="Parameter" x="0.5" y="0.5" z="12" w="12" />
+    <Item name="detailsettings3" type="Parameter" x="0.5" y="0.5" z="12" w="12" />
+    <Item name="usetessellation" type="Parameter" x="1" y="0" z="0" w="0" />
+    <Item name="pbrtweak_roughness" type="Parameter" x="0" y="0" z="0" w="0" />
+    <Item name="pbrtweak_ao" type="Parameter" x="0" y="0" z="0" w="0" />
+    <Item name="pbrtweak_detail" type="Parameter" x="0" y="0" z="0" w="0" />
+    <Item name="pbrtweak_detailindex_" type="Parameter" x="-1" y="0" z="0" w="0" />
+  </Parameters>
+ </Item>
+ <Item>
+  <Name>terrain_uber_4lyr_pxm_hbb</Name>
+  <FileName>
+   <Item>terrain_uber_4lyr_pxm_hbb.sps</Item>
+  </FileName>
+  <RenderBucket>0</RenderBucket>
+  <Layout>
+   <Item type="GTAV1">
+    <Position />
+    <Normal />
+    <Tangent />
+    <Tangent1 />
+    <Colour1 />
+    <Colour2 />
+    <TexCoord0 />
+    <TexCoord1 />
+    <TexCoord2 />
+   </Item>
+  </Layout>
+  <Parameters>
+    <Item name="lookuptexture" type="Texture" />
+    <Item name="diffusetexture_layer0" type="Texture" />
+    <Item name="bumptexture_layer0" type="Texture" />
+    <Item name="materialmapatexture_layer0" type="Texture" />
+    <Item name="diffusetexture_layer1" type="Texture" />
+    <Item name="bumptexture_layer1" type="Texture" />
+    <Item name="materialmapatexture_layer1" type="Texture" />
+    <Item name="diffusetexture_layer2" type="Texture" />
+    <Item name="bumptexture_layer2" type="Texture" />
+    <Item name="materialmapatexture_layer2" type="Texture" />
+    <Item name="diffusetexture_layer3" type="Texture" />
+    <Item name="bumptexture_layer3" type="Texture" />
+    <Item name="materialmapatexture_layer3" type="Texture" />
+    <Item name="tinttexture" type="Texture" />
+    <Item name="tintbumptexture" type="Texture" />
+    <Item name="uvscalebias" type="Parameter" x="128" y="128" z="0" w="0" />
+    <Item name="bumpiness" type="Parameter" x="1" y="1" z="1" w="0.5" />
+    <Item name="wetness" type="Parameter" x="0" y="0" z="0" w="0" />
+    <Item name="porosity" type="Parameter" x="0" y="0" z="0" w="0" />
+    <Item name="terrainfresnel" type="Parameter" x="0.96" y="0.96" z="0.96" w="0.96" />
+    <Item name="pxmenabled" type="Parameter" x="0.96" y="0.96" z="0.96" w="0.96" />
+    <Item name="pxmscales1234" type="Parameter" x="0.96" y="0.96" z="0.96" w="0.96" />
+    <Item name="pxmbiases1234" type="Parameter" x="0.96" y="0.96" z="0.96" w="0.96" />
+    <Item name="puddleheightbias" type="Parameter" x="0" y="0" z="0" w="0" />
+    <Item name="puddlemaskscale" type="Parameter" x="2" y="0" z="0" w="0" />
+    <Item name="tintintensity" type="Parameter" x="0" y="1.070478" z="1.06624" w="0" />
+    <Item name="tintblendamount" type="Parameter" x="0" y="0" z="0" w="0" />
+    <Item name="lookupuvset" type="Parameter" x="3" y="0" z="0" w="0" />
+    <Item name="uvset" type="Parameter" x="1" y="1" z="1" w="1" />
+    <Item name="clamplookuptexture" type="Parameter" x="0" y="0" z="0" w="0" />
+    <Item name="hbbrangescale1234" type="Parameter" x="1" y="1" z="1" w="1" />
+    <Item name="hbbrangebias1234" type="Parameter" x="0" y="0" z="0" w="0" />
+    <Item name="blendsoftness" type="Parameter" x="0.5" y="0.6" z="0.6" w="0.9" />
+    <Item name="detailindices" type="Parameter" x="14" y="8" z="6" w="6" />
+    <Item name="detailsettings0" type="Parameter" x="0.3" y="0.5" z="12" w="12" />
+    <Item name="detailsettings1" type="Parameter" x="0.5" y="0.5" z="24" w="24" />
+    <Item name="detailsettings2" type="Parameter" x="0.5" y="0.5" z="12" w="12" />
+    <Item name="detailsettings3" type="Parameter" x="0.5" y="0.5" z="12" w="12" />
+    <Item name="parallaxSelfShadowAmount" type="Parameter" x="0.96" y="0" z="0" w="0" />
+    <Item name="usetessellation" type="Parameter" x="1" y="0" z="0" w="0" />
+    <Item name="pbrtweak_roughness" type="Parameter" x="0" y="0" z="0" w="0" />
+    <Item name="pbrtweak_ao" type="Parameter" x="0" y="0" z="0" w="0" />
+    <Item name="pbrtweak_detail" type="Parameter" x="0" y="0" z="0" w="0" />
+    <Item name="pbrtweak_detailindex_" type="Parameter" x="-1" y="0" z="0" w="0" />
+  </Parameters>
+ </Item>
+ <Item>
+  <Name>terrain_uber_4lyr_pxm</Name>
+  <FileName>
+   <Item>terrain_uber_4lyr_pxm.sps</Item>
+  </FileName>
+  <RenderBucket>0</RenderBucket>
+  <Layout>
+   <Item type="GTAV1">
+    <Position />
+    <Normal />
+    <Tangent />
+    <Tangent1 />
+    <Colour1 />
+    <Colour2 />
+    <TexCoord0 />
+    <TexCoord1 />
+    <TexCoord2 />
+   </Item>
+  </Layout>
+  <Parameters>
+    <Item name="lookuptexture" type="Texture" />
+    <Item name="diffusetexture_layer0" type="Texture" />
+    <Item name="bumptexture_layer0" type="Texture" />
+    <Item name="materialmapatexture_layer0" type="Texture" />
+    <Item name="diffusetexture_layer1" type="Texture" />
+    <Item name="bumptexture_layer1" type="Texture" />
+    <Item name="materialmapatexture_layer1" type="Texture" />
+    <Item name="diffusetexture_layer2" type="Texture" />
+    <Item name="bumptexture_layer2" type="Texture" />
+    <Item name="materialmapatexture_layer2" type="Texture" />
+    <Item name="diffusetexture_layer3" type="Texture" />
+    <Item name="bumptexture_layer3" type="Texture" />
+    <Item name="materialmapatexture_layer3" type="Texture" />
+    <Item name="tinttexture" type="Texture" />
+    <Item name="tintbumptexture" type="Texture" />
+    <Item name="uvscalebias" type="Parameter" x="128" y="128" z="0" w="0" />
+    <Item name="bumpiness" type="Parameter" x="1" y="1" z="1" w="0.5" />
+    <Item name="wetness" type="Parameter" x="0" y="0" z="0" w="0" />
+    <Item name="porosity" type="Parameter" x="0" y="0" z="0" w="0" />
+    <Item name="terrainfresnel" type="Parameter" x="0.96" y="0.96" z="0.96" w="0.96" />
+    <Item name="pxmenabled" type="Parameter" x="0.96" y="0.96" z="0.96" w="0.96" />
+    <Item name="pxmscales1234" type="Parameter" x="0.96" y="0.96" z="0.96" w="0.96" />
+    <Item name="pxmbiases1234" type="Parameter" x="0.96" y="0.96" z="0.96" w="0.96" />
+    <Item name="puddleheightbias" type="Parameter" x="0" y="0" z="0" w="0" />
+    <Item name="puddlemaskscale" type="Parameter" x="2" y="0" z="0" w="0" />
+    <Item name="tintintensity" type="Parameter" x="0" y="1.070478" z="1.06624" w="0" />
+    <Item name="tintblendamount" type="Parameter" x="0" y="0" z="0" w="0" />
+    <Item name="lookupuvset" type="Parameter" x="3" y="0" z="0" w="0" />
+    <Item name="uvset" type="Parameter" x="1" y="1" z="1" w="1" />
+    <Item name="clamplookuptexture" type="Parameter" x="0" y="0" z="0" w="0" />
+    <Item name="hbbrangescale1234" type="Parameter" x="1" y="1" z="1" w="1" />
+    <Item name="hbbrangebias1234" type="Parameter" x="0" y="0" z="0" w="0" />
+    <Item name="blendsoftness" type="Parameter" x="0.5" y="0.6" z="0.6" w="0.9" />
+    <Item name="detailindices" type="Parameter" x="14" y="8" z="6" w="6" />
+    <Item name="detailsettings0" type="Parameter" x="0.3" y="0.5" z="12" w="12" />
+    <Item name="detailsettings1" type="Parameter" x="0.5" y="0.5" z="24" w="24" />
+    <Item name="detailsettings2" type="Parameter" x="0.5" y="0.5" z="12" w="12" />
+    <Item name="detailsettings3" type="Parameter" x="0.5" y="0.5" z="12" w="12" />
+    <Item name="useworldspacenormals" type="Parameter" x="1.0" y="0.0" z="0.0" w="0.0" />
+    <Item name="enablespec" type="Parameter" x="1.0" y="0.0" z="0.0" w="0.0" />
+    <Item name="parallaxSelfShadowAmount" type="Parameter" x="0.96" y="0" z="0" w="0" />
+    <Item name="usetessellation" type="Parameter" x="1" y="0" z="0" w="0" />
+    <Item name="pbrtweak_roughness" type="Parameter" x="0" y="0" z="0" w="0" />
+    <Item name="pbrtweak_ao" type="Parameter" x="0" y="0" z="0" w="0" />
+    <Item name="pbrtweak_detail" type="Parameter" x="0" y="0" z="0" w="0" />
+    <Item name="pbrtweak_detailindex_" type="Parameter" x="-1" y="0" z="0" w="0" />
+  </Parameters>
+ </Item>
 </Shaders>
