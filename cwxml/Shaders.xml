@@ -12660,7 +12660,8 @@
   </FileName>
   <RenderBucket>0</RenderBucket>
   <Layout>
-   <Position />
+  <Item type="GTAV1">
+    <Position />
     <Normal />
     <Colour1 />
     <Colour2 />
