@@ -12809,4 +12809,313 @@
     <Item name="pbrtweak_detailindex_" type="Vector" x="-1" y="0" z="0" w="0" />
   </Parameters>
  </Item>
+ <Item>
+  <Name>trunk_nodpm</Name>
+  <FileName>
+   <Item>trunk_nodpm.sps</Item>
+  </FileName>
+  <RenderBucket>0</RenderBucket>
+  <Layout>
+   <Item type="GTAV1">
+    <Position />
+	<Normal />
+    <Colour0 />
+    <Colour1 />
+    <TexCoord0 />
+    <TexCoord1 />
+	<Tangent />
+   </Item>
+   <Item type="GTAV1">
+    <Position />
+	<Normal />
+	<Tangent />
+    <Colour0 />
+    <Colour1 />
+    <TexCoord0 />
+    <TexCoord1 />
+   </Item>
+  </Layout>
+  <Parameters>
+          <Item name="occlusiontex" type="Texture" />
+          <Item name="batchdisabledbitfield" type="Texture" />
+          <Item name="computeinstancebuffer" type="Texture" />
+          <Item name="tintpalettetex" type="Texture" />
+		  <Item name="diffusetex" type="Texture" />
+		  <Item name="detailtexarrayn" type="Texture" />
+		  <Item name="computedatabuffer" type="Texture" />
+		  <Item name="bumptex" type="Texture" />
+		  <Item name="speculartex" type="Texture" />
+		  <Item name="speculartex2" type="Texture" />
+		  <Item name="oIZmQFA_0xE9F32960" type="Texture" />
+		  <Item name="tintpaletteselector" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="detailsettings" type="Vector" x="0.4" y="0.4" z="30.0" w="20.0" />
+		  <Item name="detailindexoverride" type="Vector" x="-1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="glodfadetilescale" type="Vector" x="1.0" y="1.0" z="0.0" w="0.0" />
+		  <Item name="glodtransitionrange" type="Vector" x="-1.0" y="-1.0" z="-1.0" w="-1.0" />
+		  <Item name="foliagebranchbendpivot0" type="Vector" x="3.15" y="0.0" z="0.0" w="0.0" />
+		  <Item name="treehorizontalbendstartratio0" type="Vector" x="0.3" y="0.0" z="0.0" w="0.0" />
+		  <Item name="treehorizontalbendexp0" type="Vector" x="40.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="treehorizontalbendscale0" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="treehorizontalbendupperbound0" type="Vector" x="0.2" y="0.0" z="0.0" w="0.0" />
+		  <Item name="treeverticalbendexp0" type="Vector" x="40.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="treeverticalbendscale0" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="treeverticalbendupperbound0" type="Vector" x="0.5" y="0.0" z="0.0" w="0.0" />
+		  <Item name="windminmaxthreshholds0" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="treemmspeed0" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="treemmscale0" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="fresnel" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="specmapintmask" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrglassiness" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrcavityrange" type="Vector" x="0.8" y="0.0" z="0.0" w="0.0" />
+          <Item name="bumpiness" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+          <Item name="wetnessmultiplier" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />		  
+		  <Item name="porosity" type="Vector" x="0.5" y="0.0" z="0.0" w="0.0" />
+		  <Item name="usetessellation" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="hardalphablend" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="marktaaghostingbit" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="usepaintedwetness" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="haspuddleswitch" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="puddleheightbias" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="puddlemaskscale" type="Vector" x="2.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="translucencyastintmask" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="alphascale" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="shadowfalloff" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="enablenearcamerafade" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="regiontintamount" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="tintoverride" type="Vector" x="1.0" y="1.0" z="1.0" w="0.0" />
+		  <Item name="pbrtweak_metallic" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrtweak_sheen" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrtweak_roughness" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrtweak_ao" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrtweak_translucency" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrtweak_fresnel" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrtweak_detail" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrtweak_detailIndex_" type="Vector" x="-1.0" y="0.0" z="0.0" w="0.0" />
+        </Parameters>
+ </Item>
+ <Item>
+  <Name>trees_standard</Name>
+  <FileName>
+   <Item>trees_standard.sps</Item>
+  </FileName>
+  <RenderBucket>0</RenderBucket>
+  <Layout>
+   <Item type="GTAV1">
+    <Position />
+	<Normal />
+    <Colour0 />
+    <Colour1 />
+    <TexCoord0 />
+	<Tangent />
+   </Item>
+   <Item type="GTAV1">
+    <Position />
+	<Normal />
+	<Tangent />
+    <Colour0 />
+    <Colour1 />
+    <TexCoord0 />
+   </Item>
+  </Layout>
+  <Parameters>
+          <Item name="occlusiontex" type="Texture" />
+          <Item name="batchdisabledbitfield" type="Texture" />
+          <Item name="computeinstancebuffer" type="Texture" />
+		  <Item name="diffusetex" type="Texture" />
+          <Item name="tintpalettetex" type="Texture" />
+		  <Item name="speculartex" type="Texture" />
+		  <Item name="bumptex" type="Texture" />
+		  <Item name="oIZmQFA_0xE9F32960" type="Texture" />
+          <Item name="computedatabuffer" type="Texture" />
+		  <Item name="tintpaletteselector" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="glodfadetilescale" type="Vector" x="1.0" y="1.0" z="0.0" w="0.0" />
+		  <Item name="glodtransitionrange" type="Vector" x="-1.0" y="-1.0" z="-1.0" w="-1.0" />
+		  <Item name="foliagebranchbendpivot0" type="Vector" x="3.15" y="0.0" z="0.0" w="0.0" />
+		  <Item name="treehorizontalbendstartratio0" type="Vector" x="0.3" y="0.0" z="0.0" w="0.0" />
+		  <Item name="treehorizontalbendexp0" type="Vector" x="40.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="treehorizontalbendscale0" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="treehorizontalbendupperbound0" type="Vector" x="0.2" y="0.0" z="0.0" w="0.0" />
+		  <Item name="treeverticalbendexp0" type="Vector" x="40.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="treeverticalbendscale0" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="treeverticalbendupperbound0" type="Vector" x="0.5" y="0.0" z="0.0" w="0.0" />
+		  <Item name="windminmaxthreshholds0" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="treemmspeed0" type="Vector" x="1.0" y="1.0" z="0.0" w="0.0" />
+		  <Item name="treemmscale0" type="Vector" x="0.25" y="2.0" z="0.0" w="0.0" />
+		  <Item name="pbrcavityrange" type="Vector" x="0.05" y="0.0" z="0.0" w="0.0" />
+		  <Item name="cacQsDA_0x6B71E660" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="bumpiness" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="alphascale" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="shadowfalloff" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="cHaQEAA_0x8406DB66" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="jXbGeBA_0x376B767A" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="enablenearcamerafade" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="regiontintamount" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="tintoverride" type="Vector" x="1.0" y="1.0" z="1.0" w="0.0" />
+		  <Item name="pbrtweak_metallic" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrtweak_sheen" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrtweak_roughness" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrtweak_ao" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrtweak_translucency" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrtweak_fresnel" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrtweak_detail" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrtweak_detailIndex_" type="Vector" x="-1.0" y="0.0" z="0.0" w="0.0" />
+        </Parameters>
+ </Item>
+  <Item>
+  <Name>trees</Name>
+  <FileName>
+   <Item>trees.sps</Item>
+  </FileName>
+  <RenderBucket>3</RenderBucket>
+  <Layout>
+   <Item type="GTAV1">
+    <Position />
+	<Normal />
+    <Colour0 />
+    <Colour1 />
+    <TexCoord0 />
+   </Item>
+   <Item type="GTAV1">
+    <Position />
+	<Normal />
+    <Colour0 />
+    <Colour1 />
+    <TexCoord0 />
+   </Item>
+  </Layout>
+  <Parameters>
+          <Item name="occlusiontex" type="Texture" />
+          <Item name="batchdisabledbitfield" type="Texture" />
+          <Item name="computeinstancebuffer" type="Texture" />
+		  <Item name="diffusetex" type="Texture" />re" />
+          <Item name="computedatabuffer" type="Texture" />
+		  <Item name="glodfadetilescale" type="Vector" x="1.0" y="1.0" z="0.0" w="0.0" />
+		  <Item name="glodtransitionrange" type="Vector" x="-1.0" y="-1.0" z="-1.0" w="-1.0" />
+		  <Item name="foliagebranchbendpivot0" type="Vector" x="3.15" y="0.0" z="0.0" w="0.0" />
+		  <Item name="treehorizontalbendstartratio0" type="Vector" x="0.3" y="0.0" z="0.0" w="0.0" />
+		  <Item name="treehorizontalbendexp0" type="Vector" x="40.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="treehorizontalbendscale0" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="treehorizontalbendupperbound0" type="Vector" x="0.2" y="0.0" z="0.0" w="0.0" />
+		  <Item name="treeverticalbendexp0" type="Vector" x="40.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="treeverticalbendscale0" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="treeverticalbendupperbound0" type="Vector" x="0.5" y="0.0" z="0.0" w="0.0" />
+		  <Item name="windminmaxthreshholds0" type="Vector" x="1.0" y="15.0" z="0.0" w="0.0" />
+		  <Item name="treemmspeed0" type="Vector" x="1.0" y="1.0" z="0.0" w="0.0" />
+		  <Item name="treemmscale0" type="Vector" x="0.25" y="2.0" z="0.0" w="0.0" />
+		  <Item name="pbrcavityrange" type="Vector" x="0.05" y="0.0" z="0.0" w="0.0" />
+		  <Item name="cacQsDA_0x6B71E660" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="bumpiness" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="alphascale" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="shadowfalloff" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="cHaQEAA_0x8406DB66" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="jXbGeBA_0x376B767A" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="enablenearcamerafade" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="regiontintamount" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="tintoverride" type="Vector" x="1.0" y="1.0" z="1.0" w="0.0" />
+        </Parameters>
+ </Item>
+  <Item>
+  <Name>trees_normal_spec</Name>
+  <FileName>
+   <Item>trees_normal_spec.sps</Item>
+  </FileName>
+  <RenderBucket>3</RenderBucket>
+  <Layout>
+   <Item type="GTAV1">
+    <Position />
+    <Normal />
+    <Colour0 />
+    <Colour1 />
+    <TexCoord0 />
+    <Tangent />
+   </Item>
+  </Layout>
+  <Parameters>
+          <Item name="occlusiontex" type="Texture" />
+          <Item name="batchdisabledbitfield" type="Texture" />
+          <Item name="computeinstancebuffer" type="Texture" />
+          <Item name="tintpalettetex" type="Texture" />
+		  <Item name="diffusetex" type="Texture" />
+		  <Item name="oIZmQFA_0xE9F32960" type="Texture" />
+		  <Item name="speculartex" type="Texture" />
+		  <Item name="bumptex" type="Texture" />
+		  <Item name="computedatabuffer" type="Texture" />
+		  <Item name="glodfadetilescale" type="Vector" x="1.0" y="1.0" z="0.0" w="0.0" />
+		  <Item name="glodtransitionrange" type="Vector" x="-1.0" y="-1.0" z="-1.0" w="-1.0" />
+		  <Item name="foliagebranchbendpivot0" type="Vector" x="3.15" y="0.0" z="0.0" w="0.0" />
+		  <Item name="treehorizontalbendstartratio0" type="Vector" x="0.3" y="0.0" z="0.0" w="0.0" />
+		  <Item name="treehorizontalbendexp0" type="Vector" x="40.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="treehorizontalbendscale0" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="treehorizontalbendupperbound0" type="Vector" x="0.2" y="0.0" z="0.0" w="0.0" />
+		  <Item name="treeverticalbendexp0" type="Vector" x="40.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="treeverticalbendscale0" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="treeverticalbendupperbound0" type="Vector" x="0.5" y="0.0" z="0.0" w="0.0" />
+		  <Item name="windminmaxthreshholds0" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="treemmspeed0" type="Vector" x="1.0" y="1.0" z="0.0" w="0.0" />
+		  <Item name="treemmscale0" type="Vector" x="0.25" y="2.0" z="0.0" w="0.0" />
+		  <Item name="pbrcavityrange" type="Vector" x="0.05" y="0.0" z="0.0" w="0.0" />
+          <Item name="bumpiness" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="alphascale" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="shadowfalloff" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="cHaQEAA_0x8406DB66" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="jXbGeBA_0x376B767A" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="enablenearcamerafade" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="regiontintamount" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="tintoverride" type="Vector" x="1.0" y="1.0" z="1.0" w="0.0" />
+		  <Item name="pbrtweak_metallic" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrtweak_sheen" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrtweak_roughness" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrtweak_ao" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrtweak_translucency" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrtweak_fresnel" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrtweak_detail" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrtweak_detailIndex_" type="Vector" x="-1.0" y="0.0" z="0.0" w="0.0" />
+    </Parameters>
+ </Item>
+ <Item>
+  <Name>trees_lod</Name>
+  <FileName>
+   <Item>trees_lod.sps</Item>
+  </FileName>
+  <RenderBucket>3</RenderBucket>
+  <Layout>
+   <Item type="GTAV1">
+    <Position />
+    <Normal />
+    <Colour0 />
+    <Colour1 />
+    <TexCoord0 />
+   </Item>
+  </Layout>
+  <Parameters>
+          <Item name="occlusiontex" type="Texture" />
+          <Item name="batchdisabledbitfield" type="Texture" />
+          <Item name="computeinstancebuffer" type="Texture" />
+		  <Item name="diffusetex" type="Texture" />
+		  <Item name="oIZmQFA_0xE9F32960" type="Texture" />
+		  <Item name="computedatabuffer" type="Texture" />
+		  <Item name="glodfadetilescale" type="Vector" x="1.0" y="1.0" z="0.0" w="0.0" />
+		  <Item name="glodtransitionrange" type="Vector" x="-1.0" y="-1.0" z="-1.0" w="-1.0" />
+		  <Item name="foliagebranchbendpivot0" type="Vector" x="3.15" y="0.0" z="0.0" w="0.0" />
+		  <Item name="treehorizontalbendstartratio0" type="Vector" x="0.3" y="0.0" z="0.0" w="0.0" />
+		  <Item name="treehorizontalbendexp0" type="Vector" x="40.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="treehorizontalbendscale0" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="treehorizontalbendupperbound0" type="Vector" x="0.2" y="0.0" z="0.0" w="0.0" />
+		  <Item name="treeverticalbendexp0" type="Vector" x="40.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="treeverticalbendscale0" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="treeverticalbendupperbound0" type="Vector" x="0.5" y="0.0" z="0.0" w="0.0" />
+		  <Item name="windminmaxthreshholds0" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="treemmspeed0" type="Vector" x="0.0" y="1.0" z="0.0" w="0.0" />
+		  <Item name="treemmscale0" type="Vector" x="0.0" y="1.0" z="0.0" w="0.0" />
+		  <Item name="pbrcavityrange" type="Vector" x="0.05" y="0.0" z="0.0" w="0.0" />
+          <Item name="bumpiness" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="alphascale" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="shadowfalloff" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="cHaQEAA_0x8406DB66" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="jXbGeBA_0x376B767A" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="enablenearcamerafade" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="regiontintamount" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="tintoverride" type="Vector" x="1.0" y="1.0" z="1.0" w="0.0" />
+    </Parameters>
+ </Item>
 </Shaders>
