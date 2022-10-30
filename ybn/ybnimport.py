@@ -12,7 +12,7 @@ from mathutils import Matrix, Vector
 def init_poly_obj(poly, sollum_type, materials):
     name = SOLLUMZ_UI_NAMES[sollum_type]
     mesh = bpy.data.meshes.new(name)
-    if poly.material_index < len(materials):
+    if materials[poly.material_index]:
         mesh.materials.append(materials[poly.material_index])
 
     obj = bpy.data.objects.new(name, mesh)

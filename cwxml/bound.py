@@ -9,7 +9,8 @@ from .element import (
     ListProperty,
     MatrixProperty,
     ValueProperty,
-    VectorProperty
+    VectorProperty,
+    TextProperty
 )
 
 
@@ -233,7 +234,7 @@ class MaterialItem(ElementTree):
 
     def __init__(self):
         super().__init__()
-        self.type = ValueProperty("Type", 0)
+        self.type = TextProperty("Type", "DEFAULT")
         self.procedural_id = ValueProperty("ProceduralID", 0)
         self.room_id = ValueProperty("RoomID", 0)
         self.ped_density = ValueProperty("PedDensity", 0)
