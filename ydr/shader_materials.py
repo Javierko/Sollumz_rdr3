@@ -508,20 +508,20 @@ def create_basic_shader_nodes(mat, shader, filename):
     for param in shader.parameters:
         if param.type == "Texture":
             imgnode = create_image_node(node_tree, param)
-            if param.name in ("DiffuseSampler", "PlateBgSampler"):
+            if param.name in ("DiffuseSampler", "PlateBgSampler", "diffusetex", "lyr0diffusetex","lyr1diffusetex"):
                 texture = imgnode
-            elif param.name in ("BumpSampler", "PlateBgBumpSampler"):
+            elif param.name in ("BumpSampler", "PlateBgBumpSampler", "bumptex", "lyr0normaltex", "lyr1normaltex"):
                 bumptex = imgnode
-            elif param.name == "SpecSampler":
+            elif param.name in ("SpecSampler", "PlateBgBumpSampler", "speculartex2"):
                 spectex = imgnode
-            elif param.name == "DetailSampler":
+            elif param.name in ("DetailSampler"): 
                 detltex = imgnode
-            elif param.name in ("TintPaletteSampler", "TextureSamplerDiffPal"):
+            elif param.name in ("TintPaletteSampler", "TextureSamplerDiffPal" , "tintpalettetex", "tintpalettetex"):
                 tintpal = imgnode
             elif param.name == "distanceMapSampler":
                 texture = imgnode
                 isdistmap = True
-            elif param.name in ("DiffuseSampler2", "DiffuseExtraSampler"):
+            elif param.name in ("DiffuseSampler2", "DiffuseExtraSampler" , "diffusetex2"):
                 texture2 = imgnode
             else:
                 if not texture:
