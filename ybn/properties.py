@@ -34,7 +34,7 @@ class CollisionMatFlags(bpy.types.PropertyGroup):
 
 
 class CollisionProperties(CollisionMatFlags, bpy.types.PropertyGroup):
-    collision_index: bpy.props.StringProperty(name="Collision Name", default="DEFAULT")
+    collision_index: bpy.props.IntProperty(name="Collision Index", default=0)
     procedural_id: bpy.props.IntProperty(name="Procedural ID", default=0)
     room_id: bpy.props.IntProperty(name="Room ID", default=0)
     ped_density: bpy.props.IntProperty(name="Ped Density", default=0)
