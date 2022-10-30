@@ -43,44 +43,48 @@ class CollisionProperties(CollisionMatFlags, bpy.types.PropertyGroup):
 
 
 class BoundFlags(bpy.types.PropertyGroup):
-    unknown: bpy.props.BoolProperty(name="UNKNOWN", default=False)
-    map_weapon: bpy.props.BoolProperty(name="MAP WEAPON", default=False)
-    map_dynamic: bpy.props.BoolProperty(name="MAP DYNAMIC", default=False)
-    map_animal: bpy.props.BoolProperty(name="MAP ANIMAL", default=False)
-    map_cover: bpy.props.BoolProperty(name="MAP COVER", default=False)
-    map_vehicle: bpy.props.BoolProperty(name="MAP VEHICLE", default=False)
-    vehicle_not_bvh: bpy.props.BoolProperty(
-        name="VEHICLE NOT BVH", default=False)
-    vehicle_bvh: bpy.props.BoolProperty(name="VEHICLE BVH", default=False)
-    ped: bpy.props.BoolProperty(name="PED", default=False)
-    ragdoll: bpy.props.BoolProperty(name="RAGDOLL", default=False)
-    animal: bpy.props.BoolProperty(name="ANIMAL", default=False)
-    animal_ragdoll: bpy.props.BoolProperty(
-        name="ANIMAL RAGDOLL", default=False)
-    object: bpy.props.BoolProperty(name="OBJECT", default=False)
-    object_env_cloth: bpy.props.BoolProperty(
-        name="OBJECT_ENV_CLOTH", default=False)
-    plant: bpy.props.BoolProperty(name="PLANT", default=False)
-    projectile: bpy.props.BoolProperty(name="PROJECTILE", default=False)
-    explosion: bpy.props.BoolProperty(name="EXPLOSION", default=False)
-    pickup: bpy.props.BoolProperty(name="PICKUP", default=False)
-    foliage: bpy.props.BoolProperty(name="FOLIAGE", default=False)
-    forklift_forks: bpy.props.BoolProperty(
-        name="FORKLIFT FORKS", default=False)
-    test_weapon: bpy.props.BoolProperty(name="TEST WEAPON", default=False)
-    test_camera: bpy.props.BoolProperty(name="TEST CAMERA", default=False)
-    test_ai: bpy.props.BoolProperty(name="TEST AI", default=False)
-    test_script: bpy.props.BoolProperty(name="TEST SCRIPT", default=False)
-    test_vehicle_wheel: bpy.props.BoolProperty(
-        name="TEST VEHICLE WHEEL", default=False)
-    glass: bpy.props.BoolProperty(name="GLASS", default=False)
-    map_river: bpy.props.BoolProperty(name="MAP RIVER", default=False)
-    smoke: bpy.props.BoolProperty(name="SMOKE", default=False)
-    unsmashed: bpy.props.BoolProperty(name="UNSMASHED", default=False)
-    map_stairs: bpy.props.BoolProperty(name="MAP STAIRS", default=False)
-    map_deep_surface: bpy.props.BoolProperty(
-        name="MAP DEEP SURFACE", default=False)
-
+    unk_flag_0: bpy.props.BoolProperty(name="unk_flag_0", default=False)
+    gta_map_type_weapon_bit: bpy.props.BoolProperty(name="GTA_MAP_TYPE_WEAPON_BIT", default=False)
+    unk_flag_2: bpy.props.BoolProperty(name="unk_flag_2", default=False)
+    unk_flag_3: bpy.props.BoolProperty(name="unk_flag_3", default=False)
+    gta_cover_type_bit: bpy.props.BoolProperty(name="GTA_COVER_TYPE_BIT", default=False)
+    gta_map_type_vehicle_bit: bpy.props.BoolProperty(name="GTA_MAP_TYPE_VEHICLE_BIT", default=False)
+    gta_vehicle_non_bvh_type_bit: bpy.props.BoolProperty(
+        name="GTA_VEHICLE_NON_BVH_TYPE_BIT", default=False)
+    gta_vehicle_bvh_type_bit: bpy.props.BoolProperty(name="GTA_VEHICLE_BVH_TYPE_BIT", default=False)
+    gta_box_vehicle_type_bit: bpy.props.BoolProperty(name="GTA_BOX_VEHICLE_TYPE_BIT", default=False)
+    gta_ped_type_bit: bpy.props.BoolProperty(name="GTA_PED_TYPE_BIT", default=False)
+    gta_ragdoll_type_bit: bpy.props.BoolProperty(name="GTA_RAGDOLL_TYPE_BIT", default=False)
+    gta_horse_type_bit: bpy.props.BoolProperty(name="GTA_HORSE_TYPE_BIT", default=False)
+    gta_horse_ragdoll_type_bit: bpy.props.BoolProperty(
+        name="GTA_HORSE_RAGDOLL_TYPE_BIT", default=False)
+    gta_object_type_bit: bpy.props.BoolProperty(name="GTA_OBJECT_TYPE_BIT", default=False)
+    gta_envcloth_object_type_bit: bpy.props.BoolProperty(
+        name="GTA_ENVCLOTH_OBJECT_TYPE_BIT", default=False)
+    gta_plant_type_bit: bpy.props.BoolProperty(name="GTA_PLANT_TYPE_BIT", default=False)
+    gta_projectile_type_bit: bpy.props.BoolProperty(name="GTA_PROJECTILE_TYPE_BIT", default=False)
+    gta_explosion_type_bit: bpy.props.BoolProperty(name="GTA_EXPLOSION_TYPE_BIT", default=False)
+    gta_pickup_type_bit: bpy.props.BoolProperty(name="GTA_PICKUP_TYPE_BIT", default=False)
+    gta_foliage_type_bit: bpy.props.BoolProperty(name="GTA_FOLIAGE_TYPE_BIT", default=False)
+    gta_forklift_forks_type_bit: bpy.props.BoolProperty(
+        name="GTA_FORKLIFT_FORKS_TYPE_BIT", default=False)
+    gta_weapon_test_bit: bpy.props.BoolProperty(name="GTA_WEAPON_TEST_BIT", default=False)
+    gta_camera_test_bit: bpy.props.BoolProperty(name="GTA_CAMERA_TEST_BIT", default=False)
+    gta_ai_test_bit: bpy.props.BoolProperty(name="GTA_AI_TEST_BIT", default=False)
+    gta_script_test_bit: bpy.props.BoolProperty(name="GTA_SCRIPT_TEST_BIT", default=False)
+    gta_wheel_test_bit: bpy.props.BoolProperty(
+        name="GTA_WHEEL_TEST_BIT", default=False)
+    gta_glass_type_bit: bpy.props.BoolProperty(name="GTA_GLASS_TYPE_BIT", default=False)
+    gta_river_type_bit: bpy.props.BoolProperty(name="GTA_RIVER_TYPE_BIT", default=False)
+    gta_smoke_type_bit: bpy.props.BoolProperty(name="GTA_SMOKE_TYPE_BIT", default=False)
+    gta_unsmashed_type_bit: bpy.props.BoolProperty(name="GTA_UNSMASHED_TYPE_BIT", default=False)
+    unk_flag_30: bpy.props.BoolProperty(name="unk_flag_32", default=False)
+    gta_deep_surface_type_bit: bpy.props.BoolProperty(
+        name="GTA_DEEP_SURFACE_TYPE_BIT", default=False)
+    unk_flag_32: bpy.props.BoolProperty(name="unk_flag_32", default=False)
+    unk_flag_33: bpy.props.BoolProperty(name="unk_flag_33", default=False)
+    unk_flag_34: bpy.props.BoolProperty(name="unk_flag_34", default=False)
+    unk_flag_35: bpy.props.BoolProperty(name="unk_flag_35", default=False)
 
 class BoundProperties(bpy.types.PropertyGroup):
     procedural_id: bpy.props.IntProperty(name="Procedural ID", default=0)
