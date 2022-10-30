@@ -133,36 +133,6 @@
   </Parameters>
  </Item>
  <Item>
-  <Name>trees_lod</Name>
-  <FileName>
-   <Item>trees_lod.sps</Item>
-  </FileName>
-  <RenderBucket>3</RenderBucket>
-  <Layout>
-   <Item type="GTAV1">
-    <Position />
-    <Normal />
-    <Colour0 />
-    <Colour1 />
-    <TexCoord0 />
-   </Item>
-   <Item type="GTAV1">
-    <Position />
-    <Normal />
-    <Colour0 />
-    <TexCoord0 />
-   </Item>
-  </Layout>
-  <Parameters>
-   <Item name="DiffuseSampler" type="Texture" />
-   <Item name="ShadowFalloff" type="Vector" x="1" y="0" z="0" w="0" />
-   <Item name="AlphaTest" type="Vector" x="0" y="0" z="0" w="0" />
-   <Item name="AlphaScale" type="Vector" x="1" y="0" z="0" w="0" />
-   <Item name="SelfShadowing" type="Vector" x="0.8" y="0" z="0" w="0" />
-   <Item name="UseTreeNormals" type="Vector" x="0.11" y="0" z="0" w="0" />
-  </Parameters>
- </Item>
- <Item>
   <Name>trees_lod2</Name>
   <FileName>
    <Item>trees_lod2.sps</Item>
@@ -2160,50 +2130,6 @@
    <Item name="bumpiness" type="Vector" x="0.65" y="0" z="0" w="0" />
    <Item name="detailsettings" type="Vector" x="0.1" y="0.75" z="40" w="0" />
    <Item name="StubbleControl" type="Vector" x="2" y="0.6" z="0" w="0" />
-  </Parameters>
- </Item>
- <Item>
-  <Name>trees_normal_spec</Name>
-  <FileName>
-   <Item>trees_normal_spec.sps</Item>
-  </FileName>
-  <RenderBucket>3</RenderBucket>
-  <Layout>
-   <Item type="GTAV1">
-    <Position />
-    <Normal />
-    <Colour0 />
-    <Colour1 />
-    <TexCoord0 />
-    <Tangent />
-   </Item>
-   <Item type="GTAV1">
-    <Position />
-    <BlendWeights />
-    <BlendIndices />
-    <Normal />
-    <Colour0 />
-    <Colour1 />
-    <TexCoord0 />
-    <Tangent />
-   </Item>
-  </Layout>
-  <Parameters>
-   <Item name="DiffuseSampler" type="Texture" />
-   <Item name="SpecSampler" type="Texture" />
-   <Item name="BumpSampler" type="Texture" />
-   <Item name="ShadowFalloff" type="Vector" x="1" y="0" z="0" w="0" />
-   <Item name="AlphaTest" type="Vector" x="0.5" y="0" z="0" w="0" />
-   <Item name="AlphaScale" type="Vector" x="1.2" y="0" z="0" w="0" />
-   <Item name="SelfShadowing" type="Vector" x="1" y="0" z="0" w="0" />
-   <Item name="UseTreeNormals" type="Vector" x="1" y="0" z="0" w="0" />
-   <Item name="WindGlobalParams" type="Vector" x="1" y="5" z="5" w="1" />
-   <Item name="umGlobalParams" type="Vector" x="0.025" y="0.02" z="1" w="0.5" />
-   <Item name="bumpiness" type="Vector" x="2.5" y="0" z="0" w="0" />
-   <Item name="specmapintmask" type="Vector" x="1" y="0" z="0" w="0" />
-   <Item name="specularIntensityMult" type="Vector" x="0.25" y="0" z="0" w="0" />
-   <Item name="specularFalloffMult" type="Vector" x="20" y="0" z="0" w="0" />
-   <Item name="specularfresnel" type="Vector" x="0.3" y="0" z="0" w="0" />
   </Parameters>
  </Item>
  <Item>
@@ -4336,41 +4262,6 @@
     <Value x="0" y="0" z="0" w="0" />
     <Value x="0" y="0" z="0" w="0" />
    </Item>
-  </Parameters>
- </Item>
- <Item>
-  <Name>trees</Name>
-  <FileName>
-   <Item>trees.sps</Item>
-  </FileName>
-  <RenderBucket>3</RenderBucket>
-  <Layout>
-   <Item type="GTAV1">
-    <Position />
-    <Normal />
-    <Colour0 />
-    <Colour1 />
-    <TexCoord0 />
-   </Item>
-   <Item type="GTAV1">
-    <Position />
-    <BlendWeights />
-    <BlendIndices />
-    <Normal />
-    <Colour0 />
-    <Colour1 />
-    <TexCoord0 />
-   </Item>
-  </Layout>
-  <Parameters>
-   <Item name="DiffuseSampler" type="Texture" />
-   <Item name="ShadowFalloff" type="Vector" x="1" y="0" z="0" w="0" />
-   <Item name="AlphaTest" type="Vector" x="0" y="0" z="0" w="0" />
-   <Item name="AlphaScale" type="Vector" x="1" y="0" z="0" w="0" />
-   <Item name="SelfShadowing" type="Vector" x="0.8" y="0" z="0" w="0" />
-   <Item name="UseTreeNormals" type="Vector" x="1" y="0" z="0" w="0" />
-   <Item name="WindGlobalParams" type="Vector" x="1" y="1" z="1" w="1" />
-   <Item name="umGlobalParams" type="Vector" x="0.025" y="0.02" z="1" w="0.5" />
   </Parameters>
  </Item>
  <Item>
