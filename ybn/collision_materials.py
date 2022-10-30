@@ -222,8 +222,16 @@ collisionmats = [
     CollisionMaterial("WOOD_ROTTEN", "Wood Rotten", (12, 147, 178, 255))
 ]
 
+coversionMap = {}
+coversionMap[12667] = 0
+
 
 def create_collision_material_from_index(collisionindex: int):
+
+    if collisionindex in coversionMap:
+       collisionindex = coversionMap[collisionindex]
+    else:
+        collisionindex = 0      
 
     matinfo = collisionmats[collisionindex]
 
