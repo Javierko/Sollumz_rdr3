@@ -715,7 +715,8 @@ def create_terrain_shader(mat, shader, filename):
 
 def create_shader(name, filename=None):
     if not name in ShaderManager.shaders:
-        raise AttributeError(f"Shader '{name}' does not exist!")
+        name = "default"
+        #raise AttributeError(f"Shader '{name}' does not exist!")
 
     shader = ShaderManager.shaders[name]
     filename = filename if filename else shader.filenames[0].value
