@@ -448,12 +448,12 @@ conversionMap[17870] = 70 #WOOD_RAILROAD > WOOD_medium
 
 
 def create_collision_material_from_index(collisionindex: int):
-
-    if collisionindex in conversionMap:
-       collisionindex = conversionMap[collisionindex]
-    else:
-        print(collisionindex)
-        collisionindex = 0      
+    if collisionindex > 200:
+        if collisionindex in conversionMap:
+            collisionindex = conversionMap[collisionindex]
+        else:
+            print(collisionindex)
+            collisionindex = 0      
 
     matinfo = collisionmats[collisionindex]
 
