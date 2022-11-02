@@ -336,7 +336,7 @@ conversionMap[7203] = 75
 conversionMap[18359] = 76
 conversionMap[3610] = 77
 conversionMap[28698] = 78
-conversionMap[3621] = 79
+conversionMap[3621] = 71
 conversionMap[3886] = 80
 conversionMap[1154] = 81
 conversionMap[27285] = 82
@@ -440,6 +440,11 @@ conversionMap[27912] = 179
 conversionMap[9975] = 180
 conversionMap[1588] = 181
 conversionMap[12667] = 0
+conversionMap[23283] = 71 # DACH > WOOD_large
+conversionMap[31694] = 23 # NAZWÓZ > SAND
+conversionMap[15550] = 0 #PHYS_BLOCKER
+conversionMap[20764] = 100 #GRAIN_SACK > CLOTH
+conversionMap[17870] = 70 #WOOD_RAILROAD > WOOD_medium
 
 
 def create_collision_material_from_index(collisionindex: int):
