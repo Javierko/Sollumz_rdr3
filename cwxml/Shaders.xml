@@ -5059,26 +5059,6 @@
   </Parameters>
  </Item>
  <Item>
-  <Name>water_fountain</Name>
-  <FileName>
-   <Item>water_fountain.sps</Item>
-  </FileName>
-  <RenderBucket>6</RenderBucket>
-  <Layout>
-   <Item type="GTAV1">
-    <Position />
-    <TexCoord0 />
-   </Item>
-  </Layout>
-  <Parameters>
-   <Item name="FogColor" type="Vector" x="0.227" y="0.49" z="0.58" w="0.13" />
-   <Item name="SpecularFalloff" type="Vector" x="2000" y="0" z="0" w="0" />
-   <Item name="SpecularIntensity" type="Vector" x="10" y="0" z="0" w="0" />
-   <Item name="RippleScale" type="Vector" x="0.2" y="0" z="0" w="0" />
-   <Item name="RippleBumpiness" type="Vector" x="0.5" y="0" z="0" w="0" />
-  </Parameters>
- </Item>
- <Item>
   <Name>reflect</Name>
   <FileName>
    <Item>reflect.sps</Item>
@@ -5507,30 +5487,6 @@
    <Item name="emissiveMultiplier" type="Vector" x="8" y="0" z="0" w="0" />
    <Item name="globalAnimUV1" type="Vector" x="0" y="1" z="0" w="0" />
    <Item name="globalAnimUV0" type="Vector" x="1" y="0" z="0" w="0" />
-  </Parameters>
- </Item>
- <Item>
-  <Name>water_shallow</Name>
-  <FileName>
-   <Item>water_shallow.sps</Item>
-  </FileName>
-  <RenderBucket>6</RenderBucket>
-  <Layout>
-   <Item type="GTAV1">
-    <Position />
-    <Normal />
-    <Colour0 />
-    <TexCoord0 />
-   </Item>
-  </Layout>
-  <Parameters>
-   <Item name="FlowSampler" type="Texture" />
-   <Item name="FogSampler" type="Texture" />
-   <Item name="SpecularFalloff" type="Vector" x="1600" y="0" z="0" w="0" />
-   <Item name="SpecularIntensity" type="Vector" x="4.2" y="0" z="0" w="0" />
-   <Item name="RippleScale" type="Vector" x="0.085" y="0" z="0" w="0" />
-   <Item name="RippleSpeed" type="Vector" x="4.25" y="0" z="0" w="0" />
-   <Item name="RippleBumpiness" type="Vector" x="1.25" y="0" z="0" w="0" />
   </Parameters>
  </Item>
  <Item>
@@ -6124,30 +6080,6 @@
    <Item name="bumpiness" type="Vector" x="1" y="0" z="0" w="0" />
    <Item name="detailsettings" type="Vector" x="0" y="0" z="24" w="0" />
    <Item name="StubbleControl" type="Vector" x="2" y="0.6" z="0" w="0" />
-  </Parameters>
- </Item>
- <Item>
-  <Name>water_river</Name>
-  <FileName>
-   <Item>water_river.sps</Item>
-  </FileName>
-  <RenderBucket>6</RenderBucket>
-  <Layout>
-   <Item type="GTAV1">
-    <Position />
-    <Normal />
-    <Colour0 />
-    <TexCoord0 />
-   </Item>
-  </Layout>
-  <Parameters>
-   <Item name="FlowSampler" type="Texture" />
-   <Item name="FogSampler" type="Texture" />
-   <Item name="SpecularFalloff" type="Vector" x="1600" y="0" z="0" w="0" />
-   <Item name="SpecularIntensity" type="Vector" x="4.2" y="0" z="0" w="0" />
-   <Item name="RippleScale" type="Vector" x="0.1" y="0" z="0" w="0" />
-   <Item name="RippleSpeed" type="Vector" x="4.2" y="0" z="0" w="0" />
-   <Item name="RippleBumpiness" type="Vector" x="1.25" y="0" z="0" w="0" />
   </Parameters>
  </Item>
  <Item>
@@ -6992,27 +6924,6 @@
   </Parameters>
  </Item>
  <Item>
-  <Name>water_riverocean</Name>
-  <FileName>
-   <Item>water_riverocean.sps</Item>
-  </FileName>
-  <RenderBucket>6</RenderBucket>
-  <Layout>
-   <Item type="GTAV1">
-    <Position />
-    <Colour0 />
-    <TexCoord0 />
-   </Item>
-  </Layout>
-  <Parameters>
-   <Item name="FogSampler" type="Texture" />
-   <Item name="SpecularFalloff" type="Vector" x="1600" y="0" z="0" w="0" />
-   <Item name="SpecularIntensity" type="Vector" x="4.2" y="0" z="0" w="0" />
-   <Item name="RippleScale" type="Vector" x="0.05" y="0" z="0" w="0" />
-   <Item name="RippleBumpiness" type="Vector" x="1.25" y="0" z="0" w="0" />
-  </Parameters>
- </Item>
- <Item>
   <Name>terrain_cb_w_4lyr_cm_pxm</Name>
   <FileName>
    <Item>terrain_cb_w_4lyr_cm_pxm.sps</Item>
@@ -7188,30 +7099,6 @@
    <Item name="specularIntensityMult" type="Vector" x="0.01" y="0" z="0" w="0" />
    <Item name="specularFalloffMult" type="Vector" x="32" y="0" z="0" w="0" />
    <Item name="tintpaletteselector" type="Vector" x="0" y="0" z="0" w="0" />
-  </Parameters>
- </Item>
- <Item>
-  <Name>water_rivershallow</Name>
-  <FileName>
-   <Item>water_rivershallow.sps</Item>
-  </FileName>
-  <RenderBucket>6</RenderBucket>
-  <Layout>
-   <Item type="GTAV1">
-    <Position />
-    <Normal />
-    <Colour0 />
-    <TexCoord0 />
-   </Item>
-  </Layout>
-  <Parameters>
-   <Item name="FlowSampler" type="Texture" />
-   <Item name="FogSampler" type="Texture" />
-   <Item name="SpecularFalloff" type="Vector" x="1600" y="0" z="0" w="0" />
-   <Item name="SpecularIntensity" type="Vector" x="4.2" y="0" z="0" w="0" />
-   <Item name="RippleScale" type="Vector" x="0.1" y="0" z="0" w="0" />
-   <Item name="RippleSpeed" type="Vector" x="4.25" y="0" z="0" w="0" />
-   <Item name="RippleBumpiness" type="Vector" x="1.25" y="0" z="0" w="0" />
   </Parameters>
  </Item>
  <Item>
@@ -7497,26 +7384,6 @@
    <Item name="bumpiness" type="Vector" x="0.6" y="0" z="0" w="0" />
    <Item name="detailsettings" type="Vector" x="0.1" y="0.75" z="40" w="0" />
    <Item name="StubbleControl" type="Vector" x="2" y="0.6" z="0" w="0" />
-  </Parameters>
- </Item>
- <Item>
-  <Name>water_poolenv</Name>
-  <FileName>
-   <Item>water_poolenv.sps</Item>
-  </FileName>
-  <RenderBucket>6</RenderBucket>
-  <Layout>
-   <Item type="GTAV1">
-    <Position />
-    <TexCoord0 />
-   </Item>
-  </Layout>
-  <Parameters>
-   <Item name="FogColor" type="Vector" x="0.223529" y="0.486275" z="0.576471" w="0.075" />
-   <Item name="SpecularFalloff" type="Vector" x="2000" y="0" z="0" w="0" />
-   <Item name="SpecularIntensity" type="Vector" x="10" y="0" z="0" w="0" />
-   <Item name="RippleScale" type="Vector" x="0.2" y="0" z="0" w="0" />
-   <Item name="RippleBumpiness" type="Vector" x="0.5" y="0" z="0" w="0" />
   </Parameters>
  </Item>
  <Item>
@@ -13008,5 +12875,595 @@
 		  <Item name="regiontintamount" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
 		  <Item name="tintoverride" type="Vector" x="1.0" y="1.0" z="1.0" w="0.0" />
     </Parameters>
+ </Item>
+ <Item>
+  <Name>water_fountain</Name>
+  <FileName>
+   <Item>water_fountain.sps</Item>
+  </FileName>
+  <RenderBucket>6</RenderBucket>
+  <Layout>
+   <Item type="GTAV1">
+    <Position />
+    <TexCoord0 />
+   </Item>
+  </Layout>
+  <Parameters>
+   <Item name="RippleBumpiness" type="Vector" x="0.5" y="0" z="0" w="0" />
+   <Item name="RippleScale" type="Vector" x="0.2" y="0" z="0" w="0" />
+   <Item name="FogColor" type="Vector" x="0.227" y="0.49" z="0.58" w="0.13" />
+  </Parameters>
+ </Item>
+ <Item>
+  <Name>water_bath</Name>
+  <FileName>
+   <Item>water_bath.sps</Item>
+  </FileName>
+  <RenderBucket>6</RenderBucket>
+  <Layout>
+   <Item type="GTAV1">
+    <Position />
+    <TexCoord0 />
+   </Item>
+  </Layout>
+  <Parameters>
+   <Item name="FogColor" type="Vector" x="0.227" y="0.49" z="0.58" w="0.13" />
+  </Parameters>
+ </Item>
+ <Item>
+  <Name>water_bucket</Name>
+  <FileName>
+   <Item>water_bucket.sps</Item>
+  </FileName>
+  <RenderBucket>6</RenderBucket>
+  <Layout>
+   <Item type="GTAV1">
+    <Position />
+    <TexCoord0 />
+   </Item>
+  </Layout>
+  <Parameters>
+   <Item name="RippleBumpiness" type="Vector" x="0.5" y="0" z="0" w="0" />
+   <Item name="RippleScale" type="Vector" x="0.2" y="0" z="0" w="0" />
+   <Item name="FogColor" type="Vector" x="0.227" y="0.49" z="0.58" w="0.13" />
+  </Parameters>
+ </Item>
+ <Item>
+  <Name>water_poolenv</Name>
+  <FileName>
+   <Item>water_poolenv.sps</Item>
+  </FileName>
+  <RenderBucket>6</RenderBucket>
+  <Layout>
+   <Item type="GTAV1">
+    <Position />
+    <TexCoord0 />
+   </Item>
+  </Layout>
+  <Parameters>
+   <Item name="RippleBumpiness" type="Vector" x="0.5" y="0" z="0" w="0" />
+   <Item name="RippleScale" type="Vector" x="0.2" y="0" z="0" w="0" />
+   <Item name="FogColor" type="Vector" x="0.227" y="0.49" z="0.58" w="0.13" />
+  </Parameters>
+ </Item>
+  <Item>
+  <Name>water_river</Name>
+  <FileName>
+   <Item>water_river.sps</Item>
+  </FileName>
+  <RenderBucket>6</RenderBucket>
+  <Layout>
+   <Item type="GTAV1">
+    <Position />
+    <Normal />
+    <Colour0 />
+    <Colour1 />
+    <TexCoord0 />
+   </Item>
+  </Layout>
+  <Parameters>
+   <Item name="flowtexture" type="Texture" />
+   <Item name="fogtexture" type="Texture" />
+   <Item name="ripplebumpiness" type="Vector" x="1.25" y="0" z="0" w="0" />
+   <Item name="ripplescale" type="Vector" x="0.1" y="0" z="0" w="0" />
+  </Parameters>
+ </Item>
+ <Item>
+  <Name>water_riverlod</Name>
+  <FileName>
+   <Item>water_riverlod.sps</Item>
+  </FileName>
+  <RenderBucket>6</RenderBucket>
+  <Layout>
+   <Item type="GTAV1">
+    <Position />
+    <Normal />
+    <Colour0 />
+    <Colour1 />
+    <TexCoord0 />
+   </Item>
+  </Layout>
+  <Parameters>
+   <Item name="flowtexture" type="Texture" />
+   <Item name="fogtexture" type="Texture" />
+   <Item name="ripplebumpiness" type="Vector" x="1.25" y="0" z="0" w="0" />
+   <Item name="ripplescale" type="Vector" x="0.1" y="0" z="0" w="0" />
+  </Parameters>
+ </Item>
+ <Item>
+  <Name>water_riverocean</Name>
+  <FileName>
+   <Item>water_riverocean.sps</Item>
+  </FileName>
+  <RenderBucket>6</RenderBucket>
+  <Layout>
+   <Item type="GTAV1">
+    <Position />
+    <Normal />
+    <Colour0 />
+    <TexCoord0 />
+   </Item>
+  </Layout>
+  <Parameters>
+   <Item name="flowtexture" type="Texture" />
+   <Item name="fogtexture" type="Texture" />
+   <Item name="ripplebumpiness" type="Vector" x="1.25" y="0" z="0" w="0" />
+   <Item name="ripplescale" type="Vector" x="0.1" y="0" z="0" w="0" />
+  </Parameters>
+ </Item>
+ <Item>
+  <Name>water_riverocean_highlod</Name>
+  <FileName>
+   <Item>water_riverocean_highlod.sps</Item>
+  </FileName>
+  <RenderBucket>6</RenderBucket>
+  <Layout>
+   <Item type="GTAV1">
+    <Position />
+    <Normal />
+    <Colour0 />
+    <TexCoord0 />
+   </Item>
+  </Layout>
+  <Parameters>
+   <Item name="flowtexture" type="Texture" />
+   <Item name="fogtexture" type="Texture" />
+   <Item name="ripplebumpiness" type="Vector" x="1.25" y="0" z="0" w="0" />
+   <Item name="ripplescale" type="Vector" x="0.1" y="0" z="0" w="0" />
+  </Parameters>
+ </Item>
+ <Item>
+  <Name>water_rivershallow</Name>
+  <FileName>
+   <Item>water_rivershallow.sps</Item>
+  </FileName>
+  <RenderBucket>6</RenderBucket>
+  <Layout>
+   <Item type="GTAV1">
+    <Position />
+    <Normal />
+    <Colour0 />
+    <TexCoord0 />
+   </Item>
+  </Layout>
+  <Parameters>
+   <Item name="flowtexture" type="Texture" />
+   <Item name="fogtexture" type="Texture" />
+   <Item name="ripplebumpiness" type="Vector" x="1.25" y="0" z="0" w="0" />
+   <Item name="ripplescale" type="Vector" x="0.1" y="0" z="0" w="0" />
+  </Parameters>
+ </Item>
+ <Item>
+  <Name>water_riverwithfoam</Name>
+  <FileName>
+   <Item>water_riverwithfoam.sps</Item>
+  </FileName>
+  <RenderBucket>6</RenderBucket>
+  <Layout>
+   <Item type="GTAV1">
+    <Position />
+    <Normal />
+    <Colour0 />
+    <Colour1 />
+    <TexCoord0 />
+   </Item>
+  </Layout>
+  <Parameters>
+   <Item name="flowtexture" type="Texture" />
+   <Item name="fogtexture" type="Texture" />
+   <Item name="foamtexture" type="Texture" />
+   <Item name="ripplebumpiness" type="Vector" x="1.25" y="0" z="0" w="0" />
+   <Item name="ripplescale" type="Vector" x="0.1" y="0" z="0" w="0" />
+   <Item name="riverfoamtexturescale" type="Vector" x="0.084" y="0" z="0" w="0" />
+  </Parameters>
+ </Item>
+ <Item>
+  <Name>water_riverwithfoam_highlod</Name>
+  <FileName>
+   <Item>water_riverwithfoam_highlod.sps</Item>
+  </FileName>
+  <RenderBucket>6</RenderBucket>
+  <Layout>
+   <Item type="GTAV1">
+    <Position />
+    <Normal />
+    <Colour0 />
+    <Colour1 />
+    <TexCoord0 />
+   </Item>
+  </Layout>
+  <Parameters>
+   <Item name="flowtexture" type="Texture" />
+   <Item name="fogtexture" type="Texture" />
+   <Item name="foamtexture" type="Texture" />
+   <Item name="ripplebumpiness" type="Vector" x="1.25" y="0" z="0" w="0" />
+   <Item name="ripplescale" type="Vector" x="0.1" y="0" z="0" w="0" />
+   <Item name="riverfoamtexturescale" type="Vector" x="0.084" y="0" z="0" w="0" />
+   <Item name="fogandopacityoverride" type="Vector" x="0" y="0" z="0" w="0.2" />
+  </Parameters>
+ </Item>
+ <Item>
+  <Name>water_river_oilfilm</Name>
+  <FileName>
+   <Item>water_river_oilfilm.sps</Item>
+  </FileName>
+  <RenderBucket>6</RenderBucket>
+  <Layout>
+   <Item type="GTAV1">
+    <Position />
+    <Normal />
+    <Colour0 />
+    <Colour1 />
+    <TexCoord0 />
+   </Item>
+  </Layout>
+  <Parameters>
+   <Item name="flowtexture" type="Texture" />
+   <Item name="fogtexture" type="Texture" />
+   <Item name="placementtexture" type="Texture" />
+   <Item name="ripplebumpiness" type="Vector" x="1.25" y="0" z="0" w="0" />
+   <Item name="ripplescale" type="Vector" x="0.1" y="0" z="0" w="0" />
+   <Item name="oilparams" type="Vector" x="1.0" y="0" z="0" w="0" />
+   <Item name="oilthickness" type="Vector" x="2500.0" y="3000.0" z="0" w="0" />
+   <Item name="oilspanandwibble" type="Vector" x="4.0" y="0.75" z="0" w="0" />
+   <Item name="placementextents" type="Vector" x="2919" y="1146" z="128" w="256" />
+  </Parameters>
+ </Item>
+ <Item>
+  <Name>water_river_oilfilm_highlod</Name>
+  <FileName>
+   <Item>water_river_oilfilm_highlod.sps</Item>
+  </FileName>
+  <RenderBucket>6</RenderBucket>
+  <Layout>
+   <Item type="GTAV1">
+    <Position />
+    <Normal />
+    <Colour0 />
+    <Colour1 />
+    <TexCoord0 />
+   </Item>
+  </Layout>
+  <Parameters>
+   <Item name="flowtexture" type="Texture" />
+   <Item name="fogtexture" type="Texture" />
+   <Item name="placementtexture" type="Texture" />
+   <Item name="ripplebumpiness" type="Vector" x="1.25" y="0" z="0" w="0" />
+   <Item name="ripplescale" type="Vector" x="0.1" y="0" z="0" w="0" />
+   <Item name="oilparams" type="Vector" x="1.0" y="0" z="0" w="0" />
+   <Item name="oilthickness" type="Vector" x="2500.0" y="3000.0" z="0" w="0" />
+   <Item name="oilspanandwibble" type="Vector" x="4.0" y="0.75" z="0" w="0" />
+   <Item name="placementextents" type="Vector" x="2919" y="1146" z="128" w="256" />
+  </Parameters>
+ </Item>
+ <Item>
+  <Name>water_riverwithpollenlayer</Name>
+  <FileName>
+   <Item>water_riverwithpollenlayer.sps</Item>
+  </FileName>
+  <RenderBucket>6</RenderBucket>
+  <Layout>
+   <Item type="GTAV1">
+    <Position />
+    <Normal />
+    <Colour0 />
+    <Colour1 />
+    <TexCoord0 />
+   </Item>
+  </Layout>
+  <Parameters>
+   <Item name="flowtexture" type="Texture" />
+   <Item name="fogtexture" type="Texture" />
+   <Item name="pollenlayerplacement" type="Texture" />
+   <Item name="ripplebumpiness" type="Vector" x="1.25" y="0" z="0" w="0" />
+   <Item name="ripplescale" type="Vector" x="0.1" y="0" z="0" w="0" />
+   <Item name="pollenlayer1" type="Vector" x="0.075" y="0.06" z="0.04" w="0" />
+   <Item name="pollenlayer2" type="Vector" x="0.085" y="0.07" z="0.09" w="0" />
+   <Item name="pollenlayer3" type="Vector" x="0.1" y="0.085" z="0.14" w="0" />
+   <Item name="pollenexistence" type="Vector" x="2048.0" y="-1280.0" z="256.0" w="256.0" />
+  </Parameters>
+ </Item>
+ <Item>
+  <Name>water_riverwithpollenlayer_highlod</Name>
+  <FileName>
+   <Item>water_riverwithpollenlayer_highlod.sps</Item>
+  </FileName>
+  <RenderBucket>6</RenderBucket>
+  <Layout>
+   <Item type="GTAV1">
+    <Position />
+    <Normal />
+    <Colour0 />
+    <Colour1 />
+    <TexCoord0 />
+   </Item>
+  </Layout>
+  <Parameters>
+   <Item name="flowtexture" type="Texture" />
+   <Item name="fogtexture" type="Texture" />
+   <Item name="pollenlayerplacement" type="Texture" />
+   <Item name="ripplebumpiness" type="Vector" x="1.25" y="0" z="0" w="0" />
+   <Item name="ripplescale" type="Vector" x="0.1" y="0" z="0" w="0" />
+   <Item name="pollenlayer1" type="Vector" x="0.075" y="0.06" z="0.04" w="0" />
+   <Item name="pollenlayer2" type="Vector" x="0.085" y="0.07" z="0.09" w="0" />
+   <Item name="pollenlayer3" type="Vector" x="0.1" y="0.085" z="0.14" w="0" />
+   <Item name="pollenexistence" type="Vector" x="2048.0" y="-1280.0" z="256.0" w="256.0" />
+  </Parameters>
+ </Item>
+ <Item>
+  <Name>water_riverwithpollenlayer_alpha_highlod</Name>
+  <FileName>
+   <Item>water_riverwithpollenlayer_alpha_highlod.sps</Item>
+  </FileName>
+  <RenderBucket>6</RenderBucket>
+  <Layout>
+   <Item type="GTAV1">
+    <Position />
+    <Normal />
+    <Colour0 />
+    <Colour1 />
+    <TexCoord0 />
+   </Item>
+  </Layout>
+  <Parameters>
+   <Item name="flowtexture" type="Texture" />
+   <Item name="fogtexture" type="Texture" />
+   <Item name="pollenlayerplacement" type="Texture" />
+   <Item name="ripplebumpiness" type="Vector" x="1.25" y="0" z="0" w="0" />
+   <Item name="ripplescale" type="Vector" x="0.1" y="0" z="0" w="0" />
+   <Item name="pollenlayer1" type="Vector" x="0.075" y="0.06" z="0.04" w="0" />
+   <Item name="pollenlayer2" type="Vector" x="0.085" y="0.07" z="0.09" w="0" />
+   <Item name="pollenlayer3" type="Vector" x="0.1" y="0.085" z="0.14" w="0" />
+   <Item name="pollenexistence" type="Vector" x="2048.0" y="-1280.0" z="256.0" w="256.0" />
+  </Parameters>
+ </Item>
+ <Item>
+  <Name>water_river_highlod</Name>
+  <FileName>
+   <Item>water_river_highlod.sps</Item>
+  </FileName>
+  <RenderBucket>6</RenderBucket>
+  <Layout>
+   <Item type="GTAV1">
+    <Position />
+    <Normal />
+    <Colour0 />
+    <Colour1 />
+    <TexCoord0 />
+   </Item>
+  </Layout>
+  <Parameters>
+   <Item name="flowtexture" type="Texture" />
+   <Item name="fogtexture" type="Texture" />
+   <Item name="ripplebumpiness" type="Vector" x="1.25" y="0" z="0" w="0" />
+   <Item name="ripplescale" type="Vector" x="0.1" y="0" z="0" w="0" />
+  </Parameters>
+ </Item>
+ <Item>
+  <Name>water_river_cave_highlod</Name>
+  <FileName>
+   <Item>water_river_cave_highlod.sps</Item>
+  </FileName>
+  <RenderBucket>6</RenderBucket>
+  <Layout>
+   <Item type="GTAV1">
+    <Position />
+    <Normal />
+    <Colour0 />
+    <Colour1 />
+    <TexCoord0 />
+   </Item>
+  </Layout>
+  <Parameters>
+   <Item name="flowtexture" type="Texture" />
+   <Item name="fogtexture" type="Texture" />
+   <Item name="ripplebumpiness" type="Vector" x="1.25" y="0" z="0" w="0" />
+   <Item name="ripplescale" type="Vector" x="0.1" y="0" z="0" w="0" />
+  </Parameters>
+ </Item>
+ <Item>
+  <Name>water_river_slod1</Name>
+  <FileName>
+   <Item>water_river_slod1.sps</Item>
+  </FileName>
+  <RenderBucket>6</RenderBucket>
+  <Layout>
+   <Item type="GTAV1">
+    <Position />
+    <Normal />
+    <Colour0 />
+    <Colour1 />
+    <TexCoord0 />
+   </Item>
+  </Layout>
+  <Parameters>
+   <Item name="flowtexture" type="Texture" />
+   <Item name="fogtexture" type="Texture" />
+   <Item name="ripplebumpiness" type="Vector" x="1.25" y="0" z="0" w="0" />
+   <Item name="ripplescale" type="Vector" x="0.1" y="0" z="0" w="0" />
+  </Parameters>
+ </Item>
+ <Item>
+  <Name>water_river_slod2</Name>
+  <FileName>
+   <Item>water_river_slod2.sps</Item>
+  </FileName>
+  <RenderBucket>6</RenderBucket>
+  <Layout>
+   <Item type="GTAV1">
+    <Position />
+    <Normal />
+    <Colour0 />
+    <Colour1 />
+    <TexCoord0 />
+   </Item>
+  </Layout>
+  <Parameters>
+   <Item name="flowtexture" type="Texture" />
+   <Item name="fogtexture" type="Texture" />
+   <Item name="ripplebumpiness" type="Vector" x="1.25" y="0" z="0" w="0" />
+   <Item name="ripplescale" type="Vector" x="0.1" y="0" z="0" w="0" />
+  </Parameters>
+ </Item>
+ <Item>
+  <Name>water_river_slod3</Name>
+  <FileName>
+   <Item>water_river_slod3.sps</Item>
+  </FileName>
+  <RenderBucket>6</RenderBucket>
+  <Layout>
+   <Item type="GTAV1">
+    <Position />
+    <Normal />
+    <Colour0 />
+    <Colour1 />
+    <TexCoord0 />
+   </Item>
+  </Layout>
+  <Parameters>
+   <Item name="flowtexture" type="Texture" />
+   <Item name="fogtexture" type="Texture" />
+   <Item name="ripplebumpiness" type="Vector" x="1.25" y="0" z="0" w="0" />
+   <Item name="ripplescale" type="Vector" x="0.1" y="0" z="0" w="0" />
+  </Parameters>
+ </Item>
+ <Item>
+  <Name>water_river_alpha</Name>
+  <FileName>
+   <Item>water_river_alpha.sps</Item>
+  </FileName>
+  <RenderBucket>6</RenderBucket>
+  <Layout>
+   <Item type="GTAV1">
+    <Position />
+    <Normal />
+    <Colour0 />
+    <Colour1 />
+    <TexCoord0 />
+   </Item>
+  </Layout>
+  <Parameters>
+   <Item name="flowtexture" type="Texture" />
+   <Item name="fogtexture" type="Texture" />
+   <Item name="foamtexture" type="Texture" />
+   <Item name="ripplebumpiness" type="Vector" x="1.25" y="0" z="0" w="0" />
+   <Item name="ripplescale" type="Vector" x="0.1" y="0" z="0" w="0" />
+   <Item name="riverfoamtexturescale" type="Vector" x="0.084" y="0" z="0" w="0" />
+  </Parameters>
+ </Item>
+ <Item>
+  <Name>water_river_alpha_highlod</Name>
+  <FileName>
+   <Item>water_river_alpha_highlod.sps</Item>
+  </FileName>
+  <RenderBucket>6</RenderBucket>
+  <Layout>
+   <Item type="GTAV1">
+    <Position />
+    <Normal />
+    <Colour0 />
+    <Colour1 />
+    <TexCoord0 />
+   </Item>
+  </Layout>
+  <Parameters>
+   <Item name="flowtexture" type="Texture" />
+   <Item name="fogtexture" type="Texture" />
+   <Item name="foamtexture" type="Texture" />
+   <Item name="ripplebumpiness" type="Vector" x="1.25" y="0" z="0" w="0" />
+   <Item name="ripplescale" type="Vector" x="0.1" y="0" z="0" w="0" />
+   <Item name="riverfoamtexturescale" type="Vector" x="0.084" y="0" z="0" w="0" />
+   <Item name="fogandopacityoverride" type="Vector" x="0" y="0" z="0" w="0.2" />
+  </Parameters>
+ </Item>
+ <Item>
+  <Name>water_shallow</Name>
+  <FileName>
+   <Item>water_shallow.sps</Item>
+  </FileName>
+  <RenderBucket>6</RenderBucket>
+  <Layout>
+   <Item type="GTAV1">
+    <Position />
+    <Normal />
+    <Colour0 />
+    <Colour1 />
+    <TexCoord0 />
+   </Item>
+  </Layout>
+  <Parameters>
+   <Item name="flowtexture" type="Texture" />
+   <Item name="fogtexture" type="Texture" />
+   <Item name="ripplebumpiness" type="Vector" x="1.25" y="0" z="0" w="0" />
+   <Item name="ripplescale" type="Vector" x="0.1" y="0" z="0" w="0" />
+  </Parameters>
+ </Item>
+  <Item>
+  <Name>water_terrainfoam</Name>
+  <FileName>
+   <Item>water_terrainfoam.sps</Item>
+  </FileName>
+  <RenderBucket>2</RenderBucket>
+  <Layout>
+   <Item type="GTAV1">
+    <Position />
+    <Normal />
+    <Colour0 />
+    <TexCoord0 />
+    <Tangent />
+   </Item>
+  </Layout>
+  <Parameters>
+   <Item name="foamsampler" type="Texture" />
+   <Item name="waveoffset" type="Vector" x="1" y="0" z="0" w="0" />
+   <Item name="waterheight" type="Vector" x="-1" y="0" z="0" w="0" />
+   <Item name="wavemovement" type="Vector" x="0.4" y="0" z="0" w="0" />
+   <Item name="heightopacity" type="Vector" x="4" y="0" z="0" w="0" />
+  </Parameters>
+ </Item>
+ <Item>
+  <Name>water_waterfall_highlod</Name>
+  <FileName>
+   <Item>water_waterfall_highlod.sps</Item>
+  </FileName>
+  <RenderBucket>6</RenderBucket>
+  <Layout>
+   <Item type="GTAV1">
+    <Position />
+    <Normal />
+    <Colour0 />
+    <Colour1 />
+    <TexCoord0 />
+   </Item>
+  </Layout>
+  <Parameters>
+   <Item name="flowtexture" type="Texture" />
+   <Item name="fogtexture" type="Texture" />
+   <Item name="foamtexture" type="Texture" />
+   <Item name="ripplebumpiness" type="Vector" x="1.25" y="0" z="0" w="0" />
+   <Item name="ripplescale" type="Vector" x="0.1" y="0" z="0" w="0" />
+   <Item name="riverfoamtexturescale" type="Vector" x="0.084" y="0" z="0" w="0" />
+   <Item name="fogandopacityoverride" type="Vector" x="0" y="0" z="0" w="0.2" />
+  </Parameters>
  </Item>
 </Shaders>

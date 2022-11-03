@@ -96,7 +96,7 @@ def organize_loose_nodes(node_tree, start_x, start_y):
 def get_tinted_sampler(mat):  # move to blenderhelper.py?
     nodes = mat.node_tree.nodes
     for node in nodes:
-        if node.name in ("TintPaletteSampler", "TextureSamplerDiffPal"):
+        if node.name in ("TintPaletteSampler", "TextureSamplerDiffPal", "tintpalettetex"):
             if node.image:
                 return node.image
             else:
@@ -512,11 +512,11 @@ def create_basic_shader_nodes(mat, shader, filename):
                 texture = imgnode
             elif param.name in ("BumpSampler", "PlateBgBumpSampler", "bumptex", "lyr0normaltex", "lyr1normaltex"):
                 bumptex = imgnode
-            elif param.name in ("SpecSampler", "PlateBgBumpSampler", "speculartex2"):
+            elif param.name in ("SpecSampler", "PlateBgBumpSampler", "speculartex", "speculartex2"):
                 spectex = imgnode
             elif param.name in ("DetailSampler"): 
                 detltex = imgnode
-            elif param.name in ("TintPaletteSampler", "TextureSamplerDiffPal" , "tintpalettetex", "tintpalettetex"):
+            elif param.name in ("TintPaletteSampler", "TextureSamplerDiffPal" , "tintpalettetex"):
                 tintpal = imgnode
             elif param.name == "distanceMapSampler":
                 texture = imgnode
@@ -622,21 +622,21 @@ def create_terrain_shader(mat, shader, filename):
     for param in shader.parameters:
         if param.type == "Texture":
             imgnode = create_image_node(node_tree, param)
-            if param.name == "TextureSampler_layer0":
+            if param.name == "diffusetexture_layer0":
                 ts1 = imgnode
-            elif param.name == "TextureSampler_layer1":
+            elif param.name == "diffusetexture_layer1":
                 ts2 = imgnode
-            elif param.name == "TextureSampler_layer2":
+            elif param.name == "diffusetexture_layer2":
                 ts3 = imgnode
-            elif param.name == "TextureSampler_layer3":
+            elif param.name == "diffusetexture_layer3":
                 ts4 = imgnode
-            elif param.name == "BumpSampler_layer0":
+            elif param.name == "bumptexture_layer0":
                 bs1 = imgnode
-            elif param.name == "BumpSampler_layer1":
+            elif param.name == "bumptexture_layer1":
                 bs2 = imgnode
-            elif param.name == "BumpSampler_layer2":
+            elif param.name == "bumptexture_layer2":
                 bs3 = imgnode
-            elif param.name == "BumpSampler_layer3":
+            elif param.name == "bumptexture_layer3":
                 bs4 = imgnode
             elif param.name == "lookupSampler":
                 tm = imgnode
