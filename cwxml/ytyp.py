@@ -58,11 +58,10 @@ class TimeArchetype(BaseArchetype):
 
 
 class Corner(ElementProperty):
-    value_types = (tuple)
-    tag_name = "Item"
+    value_types = (str)
 
-    def __init__(self, tag_name=None, value=None):
-        super().__init__("Item", value or tuple())
+    def __init__(self):
+        super().__init__(tag_name="corners", value=[])
 
     @staticmethod
     def from_xml(element):
@@ -76,8 +75,17 @@ class Corner(ElementProperty):
         if not self.value or len(self.value) < 1:
             return None
 
-        elem = ET.Element(self.tag_name)
-        elem.text = ",".join([str(float32(val)) for val in self.value])
+        attrib = {"content": "vector3_array"}
+        elem = ET.Element(self.tag_name , attrib)
+        corners = []
+        for index, pos in enumerate(self.value):
+            text = []
+            for index, value in enumerate(pos):
+                text.append(str(float32(value)))
+                text.append("   ")
+            text.append("\n")
+            corners.append("".join(text))
+            elem.text = "".join(corners)
         return elem
 
 
@@ -102,7 +110,8 @@ class AttachedObjectsBuffer(ElementProperty):
         return new
 
     def to_xml(self):
-        element = ET.Element(self.tag_name)
+        attrib = {"content": "int_array"}
+        element = ET.Element(self.tag_name , attrib)
         columns = 10
         text = []
 
@@ -129,7 +138,7 @@ class Portal(ElementTree):
         self.mirror_priority = ValueProperty("mirrorPriority")
         self.opacity = ValueProperty("opacity")
         self.audio_occlusion = ValueProperty("audioOcclusion")
-        self.corners = CornersListProperty()
+        self.corners = Corner()
         self.attached_objects = AttachedObjectsBuffer()
 
 
