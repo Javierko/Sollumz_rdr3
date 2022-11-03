@@ -57,9 +57,10 @@ def set_portal_xml_corners(portal: PortalProperties, portal_xml: ytypxml.Portal)
 
     for i in range(4):
         corner = getattr(portal, f"corner{i + 1}")
-        corner_xml = ytypxml.Corner()
-        corner_xml.value = corner
-        portal_xml.corners.append(corner_xml)
+        print(corner)
+        # corner_xml = ytypxml.Corner()
+        # corner_xml.value = corner
+        portal_xml.corners.append(corner)
 
 
 def create_entity_xml(entity: MloEntityProperties) -> ymapxml.EntityItem:

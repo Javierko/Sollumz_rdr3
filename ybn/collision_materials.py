@@ -445,7 +445,11 @@ conversionMap[31694] = 23 # NAZWÓZ > SAND
 conversionMap[15550] = 0 #PHYS_BLOCKER
 conversionMap[20764] = 100 #GRAIN_SACK > CLOTH
 conversionMap[17870] = 70 #WOOD_RAILROAD > WOOD_medium
-
+conversionMap[26299] = 78 #WOOD_BURNT >  OLD CREAKE
+conversionMap[23642] = 12 #COBBLESTONE_DIRT >  COBLESTONE
+conversionMap[17881] = 100 #CLOTH_SACK > CLOTH
+conversionMap[458] = 65 #METAL_RAILING_TRAM  > METAL_RAILING
+conversionMap[30124] = 31 #GRAVEL_DIRT  > GRAVEL_SMALL
 
 def create_collision_material_from_index(collisionindex: int):
     if collisionindex > 200:
