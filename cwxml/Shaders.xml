@@ -8958,6 +8958,221 @@
         </Parameters>
  </Item>
  <Item>
+  <Name>standard_lod</Name>
+  <FileName>
+   <Item>standard_lod.sps</Item>
+  </FileName>
+  <RenderBucket>0</RenderBucket>
+  <Layout>
+   <Item type="GTAV1">
+    <Position />
+	<Normal />
+    <Colour0 />
+    <TexCoord0 />
+    <TexCoord1 />
+	<Tangent />
+   </Item>
+   <Item type="GTAV1">
+    <Position />
+	<Normal />
+	<Tangent />
+    <Colour0 />
+    <TexCoord0 />
+    <TexCoord1 />
+   </Item>
+  </Layout>
+  <Parameters>
+          <Item name="tintpalettetex" type="Texture" />
+		  <Item name="diffusetex" type="Texture" />
+		  <Item name="bumptex" type="Texture" />
+		  <Item name="speculartex" type="Texture" />
+		  <Item name="speculartex2" type="Texture" />
+		  <Item name="detailtexarrayn" type="Texture" />
+		  <Item name="tintpaletteselector" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="detailsettings" type="Vector" x="0.0" y="1.0" z="24.0" w="24.0" />
+		  <Item name="detailindexoverride" type="Vector" x="-1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="fresnel" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="specmapintmask" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="tintoverride" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrglassiness" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrcavityrange" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrtweak_metallic" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrtweak_sheen" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrtweak_roughness" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrtweak_ao" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrtweak_translucency" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrtweak_fresnel" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrtweak_detail" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrtweak_detailIndex_" type="Vector" x="-1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrdetail_metallic" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrdetail_sheen" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrdetail_roughness" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrdetail_ao" type="Vector" x="0.0" yy="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrdetail_translucency" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="bumpiness" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="wetnessmultiplier" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />		  
+		  <Item name="porosity" type="Vector" x="0.5" y="0.0" z="0.0" w="0.0" />
+		  <Item name="usetessellation" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="hardalphablend" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="marktaaghostingbit" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="usepaintedwetness" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="haspuddleswitch" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="puddleheightbias" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="puddlemaskscale" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="translucencyastintmask" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+        </Parameters>
+ </Item>
+ <Item>
+  <Name>standard_cutout_hbb</Name>
+  <FileName>
+   <Item>standard_cutout_hbb.sps</Item>
+  </FileName>
+  <RenderBucket>0</RenderBucket>
+  <Layout>
+   <Item type="GTAV1">
+    <Position />
+	<Normal />
+    <Colour0 />
+    <TexCoord0 />
+    <TexCoord1 />
+	<Tangent />
+   </Item>
+   <Item type="GTAV1">
+    <Position />
+	<Normal />
+	<Tangent />
+    <Colour0 />
+    <TexCoord0 />
+    <TexCoord1 />
+   </Item>
+  </Layout>
+  <Parameters>
+          <Item name="tintpalettetex" type="Texture" />
+		  <Item name="diffusetex" type="Texture" />
+		  <Item name="bumptex" type="Texture" />
+		  <Item name="speculartex" type="Texture" />
+		  <Item name="speculartex2" type="Texture" />
+		  <Item name="detailtexarrayn" type="Texture" />
+		  <Item name="tintpaletteselector" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="detailsettings" type="Vector" x="0.0" y="1.0" z="24.0" w="24.0" />
+		  <Item name="detailindexoverride" type="Vector" x="-1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="fresnel" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="specmapintmask" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="tintoverride" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrglassiness" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrcavityrange" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrtweak_metallic" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrtweak_sheen" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrtweak_roughness" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrtweak_ao" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrtweak_translucency" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrtweak_fresnel" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrtweak_detail" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrtweak_detailIndex_" type="Vector" x="-1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrdetail_metallic" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrdetail_sheen" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrdetail_roughness" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrdetail_ao" type="Vector" x="0.0" yy="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrdetail_translucency" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="bumpiness" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="wetnessmultiplier" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />		  
+		  <Item name="porosity" type="Vector" x="0.5" y="0.0" z="0.0" w="0.0" />
+		  <Item name="usetessellation" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="hardalphablend" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="marktaaghostingbit" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="usepaintedwetness" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="haspuddleswitch" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="puddleheightbias" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="puddlemaskscale" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="translucencyastintmask" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+        </Parameters>
+ </Item>
+ <Item>
+  <Name>standard_decal</Name>
+  <FileName>
+   <Item>standard_decal.sps</Item>
+  </FileName>
+  <RenderBucket>0</RenderBucket>
+  <Layout>
+   <Item type="GTAV1">
+    <Position />
+	<Normal />
+    <Colour0 />
+    <TexCoord0 />
+    <TexCoord1 />
+	<Tangent />
+   </Item>
+   <Item type="GTAV1">
+    <Position />
+	<Normal />
+	<Tangent />
+    <Colour0 />
+    <TexCoord0 />
+    <TexCoord1 />
+   </Item>
+   <Item type="GTAV1">
+    <Position />
+	<Normal />
+	<Tangent />
+    <BlendWeights />
+	<BlendIndices />
+    <Colour0 />
+    <TexCoord0 />
+    <TexCoord1 />
+   </Item>
+   <Item type="GTAV1">
+    <Position />
+	<Normal />
+    <BlendWeights />
+	<BlendIndices />
+    <Colour0 />
+    <TexCoord0 />
+    <TexCoord1 />
+    <Tangent />
+   </Item>
+  </Layout>
+  <Parameters>
+          <Item name="tintpalettetex" type="Texture" />
+		  <Item name="diffusetex" type="Texture" />
+		  <Item name="bumptex" type="Texture" />
+		  <Item name="speculartex" type="Texture" />
+		  <Item name="speculartex2" type="Texture" />
+		  <Item name="detailtexarrayn" type="Texture" />
+		  <Item name="tintpaletteselector" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="detailsettings" type="Vector" x="0.0" y="1.0" z="24.0" w="24.0" />
+		  <Item name="detailindexoverride" type="Vector" x="-1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="fresnel" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="specmapintmask" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="tintoverride" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrglassiness" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrcavityrange" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrtweak_metallic" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrtweak_sheen" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrtweak_roughness" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrtweak_ao" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrtweak_translucency" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrtweak_fresnel" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrtweak_detail" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrtweak_detailIndex_" type="Vector" x="-1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrdetail_metallic" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrdetail_sheen" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrdetail_roughness" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrdetail_ao" type="Vector" x="0.0" yy="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrdetail_translucency" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="bumpiness" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="wetnessmultiplier" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />		  
+		  <Item name="porosity" type="Vector" x="0.5" y="0.0" z="0.0" w="0.0" />
+		  <Item name="usetessellation" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="hardalphablend" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="marktaaghostingbit" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="usepaintedwetness" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="haspuddleswitch" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="puddleheightbias" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="puddlemaskscale" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="translucencyastintmask" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+        </Parameters>
+ </Item>
+ <Item>
   <Name>standard_2lyr</Name>
   <FileName>
    <Item>standard_2lyr.sps</Item>
@@ -9048,10 +9263,279 @@
 		  <Item name="pbrdetail_translucency" type="Vector" x="0.0" y="1.0" z="1.0" w="0.0" />
         </Parameters>
  </Item>
+ <Item>
+  <Name>standard_2lyr_pxm</Name>
+  <FileName>
+   <Item>standard_2lyr_pxm.sps</Item>
+  </FileName>
+  <RenderBucket>0</RenderBucket>
+  <Layout>
+  <Item type="GTAV1">
+    <Position />
+	<Normal />
+    <Colour0 />
+    <Colour1 />
+    <TexCoord0 />
+    <TexCoord1 />
+    <TexCoord2 />
+    <Tangent />
+    <Tangent1 />
+   </Item>
+   <Item type="GTAV1">
+    <Position />
+	<Normal />
+    <Tangent />
+    <Tangent1 />
+    <Colour0 />
+    <Colour1 />
+    <TexCoord0 />
+    <TexCoord1 />
+    <TexCoord2 />
+   </Item>
+  </Layout>
+  <Parameters>
+          <Item name="tintpalettetex" type="Texture" />
+		  <Item name="lyr0diffusetex" type="Texture" />
+          <Item name="lyr0normaltex" type="Texture" />
+          <Item name="lyr0materialatex" type="Texture" />
+          <Item name="lyr0materialbtex" type="Texture" />
+          <Item name="lyr1diffusetex" type="Texture" />
+          <Item name="lyr1normaltex" type="Texture" />
+          <Item name="lyr1materialatex" type="Texture" />
+          <Item name="lyr1materialbtex" type="Texture" /> 
+          <Item name="dirtdiffusetex" type="Texture" /> 
+          <Item name="controltexturetex" type="Texture" /> 
+          <Item name="aotexturetex" type="Texture" /> 
+          <Item name="detailtexarrayn" type="Texture" />
+          <Item name="tintpaletteselector" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="lyr0fresnel" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="lyr0bumpiness" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="lyr0tint" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="lyr0uvset" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="lyr0detailsettings" type="Vector" x="0.0" y="1.0" z="24.0" w="24.0" />
+		  <Item name="lyr0cavity" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="lyr0porosity" type="Vector" x="0.5" y="0.0" z="0.0" w="0.0" />
+		  <Item name="lyr0translucency" type="Vector" x="0.5" y="0.0" z="0.0" w="0.0" />
+		  <Item name="lyr1fresnel" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="lyr1bumpiness" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="lyr1tint" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="lyr1uvset" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="lyr1detailsettings" type="Vector" x="0.0" y="1.0" z="24.0" w="24.0" />
+		  <Item name="lyr1cavity" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="lyr1porosity" type="Vector" x="0.5" y="0.0" z="0.0" w="0.0" />
+		  <Item name="lyr1translucency" type="Vector" x="0.5" y="0.0" z="0.0" w="0.0" />
+		  <Item name="lyr1uvscale" type="Vector" x="1.0" y="1.0" z="0.0" w="0.0" />
+		  <Item name="dirtintensity" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="busehardlight" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="dirtroughness" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="blendsoftness" type="Vector" x="0.5" y="0.0" z="0.0" w="0.0" />
+		  <Item name="controluvset" type="Vector" x="2.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="invcontrol" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="controlfilter" type="Vector" x="0.0" y="0.0" z="1.0" w="0.0" />
+		  <Item name="parallaxselfshadowamount" type="Vector" x="0.96" y="0.0" z="0.0" w="0.0" />
+		  <Item name="usepaintedwetness" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="haspuddleswitch" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="puddleheightbias" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="puddlemaskscale" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="translucencyastintmask" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="tintoverride" type="Vector" x="1.0" y="1.0" z="1.0" w="0.0" />
+		  <Item name="pbrtweak_metallic" type="Vector" x="0.0" y="1.0" z="1.0" w="0.0" />
+		  <Item name="pbrtweak_sheen" type="Vector" x="0.0" y="1.0" z="1.0" w="0.0" />
+		  <Item name="pbrtweak_roughness" type="Vector" x="0.0" y="1.0" z="1.0" w="0.0" />
+		  <Item name="pbrtweak_ao" type="Vector" x="0.0" y="1.0" z="1.0" w="0.0" />
+		  <Item name="pbrtweak_translucency" type="Vector" x="0.0" y="1.0" z="1.0" w="0.0" />
+		  <Item name="pbrtweak_fresnel" type="Vector" x="0.0" y="1.0" z="1.0" w="0.0" />
+		  <Item name="pbrtweak_detail" type="Vector" x="0.0" y="1.0" z="1.0" w="0.0" />
+		  <Item name="pbrtweak_detailindex_" type="Vector" x="-1.0" y="1.0" z="1.0" w="0.0" />
+		  <Item name="pbrtweak_detailindex_" type="Vector" x="-1.0" y="1.0" z="1.0" w="0.0" />
+		  <Item name="pbrdetail_metallic" type="Vector" x="0.0" y="1.0" z="1.0" w="0.0" />
+		  <Item name="pbrdetail_sheen" type="Vector" x="0.0" y="1.0" z="1.0" w="0.0" />
+		  <Item name="pbrdetail_roughness" type="Vector" x="0.0" y="1.0" z="1.0" w="0.0" />
+		  <Item name="pbrdetail_ao" type="Vector" x="0.0" y="1.0" z="1.0" w="0.0" />
+		  <Item name="pbrdetail_translucency" type="Vector" x="0.0" y="1.0" z="1.0" w="0.0" />
+        </Parameters>
+ </Item>
+ <Item>
+  <Name>standard_2lyr_pxm_ground</Name>
+  <FileName>
+   <Item>standard_2lyr_pxm_ground.sps</Item>
+  </FileName>
+  <RenderBucket>0</RenderBucket>
+  <Layout>
+  <Item type="GTAV1">
+    <Position />
+	<Normal />
+    <Colour0 />
+    <Colour1 />
+    <TexCoord0 />
+    <TexCoord1 />
+    <TexCoord2 />
+    <Tangent />
+    <Tangent1 />
+   </Item>
+   <Item type="GTAV1">
+    <Position />
+	<Normal />
+    <Tangent />
+    <Tangent1 />
+    <Colour0 />
+    <Colour1 />
+    <TexCoord0 />
+    <TexCoord1 />
+    <TexCoord2 />
+   </Item>
+  </Layout>
+  <Parameters>
+          <Item name="tintpalettetex" type="Texture" />
+		  <Item name="lyr0diffusetex" type="Texture" />
+          <Item name="lyr0normaltex" type="Texture" />
+          <Item name="lyr0materialatex" type="Texture" />
+          <Item name="lyr0materialbtex" type="Texture" />
+          <Item name="lyr1diffusetex" type="Texture" />
+          <Item name="lyr1normaltex" type="Texture" />
+          <Item name="lyr1materialatex" type="Texture" />
+          <Item name="lyr1materialbtex" type="Texture" /> 
+          <Item name="dirtdiffusetex" type="Texture" /> 
+          <Item name="controltexturetex" type="Texture" /> 
+          <Item name="aotexturetex" type="Texture" /> 
+          <Item name="detailtexarrayn" type="Texture" />
+          <Item name="tintpaletteselector" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="lyr0fresnel" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="lyr0bumpiness" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="lyr0tint" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="lyr0uvset" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="lyr0detailsettings" type="Vector" x="0.0" y="1.0" z="24.0" w="24.0" />
+		  <Item name="lyr0cavity" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="lyr0porosity" type="Vector" x="0.5" y="0.0" z="0.0" w="0.0" />
+		  <Item name="lyr0translucency" type="Vector" x="0.5" y="0.0" z="0.0" w="0.0" />
+		  <Item name="lyr1fresnel" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="lyr1bumpiness" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="lyr1tint" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="lyr1uvset" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="lyr1detailsettings" type="Vector" x="0.0" y="1.0" z="24.0" w="24.0" />
+		  <Item name="lyr1cavity" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="lyr1porosity" type="Vector" x="0.5" y="0.0" z="0.0" w="0.0" />
+		  <Item name="lyr1translucency" type="Vector" x="0.5" y="0.0" z="0.0" w="0.0" />
+		  <Item name="lyr1uvscale" type="Vector" x="1.0" y="1.0" z="0.0" w="0.0" />
+		  <Item name="dirtintensity" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="busehardlight" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="dirtroughness" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="blendsoftness" type="Vector" x="0.5" y="0.0" z="0.0" w="0.0" />
+		  <Item name="controluvset" type="Vector" x="2.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="invcontrol" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="controlfilter" type="Vector" x="0.0" y="0.0" z="1.0" w="0.0" />
+		  <Item name="parallaxselfshadowamount" type="Vector" x="0.96" y="0.0" z="0.0" w="0.0" />
+		  <Item name="usepaintedwetness" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="haspuddleswitch" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="puddleheightbias" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="puddlemaskscale" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="translucencyastintmask" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="tintoverride" type="Vector" x="1.0" y="1.0" z="1.0" w="0.0" />
+		  <Item name="pbrtweak_metallic" type="Vector" x="0.0" y="1.0" z="1.0" w="0.0" />
+		  <Item name="pbrtweak_sheen" type="Vector" x="0.0" y="1.0" z="1.0" w="0.0" />
+		  <Item name="pbrtweak_roughness" type="Vector" x="0.0" y="1.0" z="1.0" w="0.0" />
+		  <Item name="pbrtweak_ao" type="Vector" x="0.0" y="1.0" z="1.0" w="0.0" />
+		  <Item name="pbrtweak_translucency" type="Vector" x="0.0" y="1.0" z="1.0" w="0.0" />
+		  <Item name="pbrtweak_fresnel" type="Vector" x="0.0" y="1.0" z="1.0" w="0.0" />
+		  <Item name="pbrtweak_detail" type="Vector" x="0.0" y="1.0" z="1.0" w="0.0" />
+		  <Item name="pbrtweak_detailindex_" type="Vector" x="-1.0" y="1.0" z="1.0" w="0.0" />
+		  <Item name="pbrtweak_detailindex_" type="Vector" x="-1.0" y="1.0" z="1.0" w="0.0" />
+		  <Item name="pbrdetail_metallic" type="Vector" x="0.0" y="1.0" z="1.0" w="0.0" />
+		  <Item name="pbrdetail_sheen" type="Vector" x="0.0" y="1.0" z="1.0" w="0.0" />
+		  <Item name="pbrdetail_roughness" type="Vector" x="0.0" y="1.0" z="1.0" w="0.0" />
+		  <Item name="pbrdetail_ao" type="Vector" x="0.0" y="1.0" z="1.0" w="0.0" />
+		  <Item name="pbrdetail_translucency" type="Vector" x="0.0" y="1.0" z="1.0" w="0.0" />
+        </Parameters>
+ </Item>
   <Item>
   <Name>standard_alpha</Name>
   <FileName>
    <Item>standard_alpha.sps</Item>
+  </FileName>
+  <RenderBucket>1</RenderBucket>
+  <Layout>
+  <Item type="GTAV1">
+    <Position />
+	<Normal />
+    <Colour0 />
+    <TexCoord0 />
+    <TexCoord1 />
+    <Tangent />
+   </Item>
+   <Item type="GTAV1">
+    <Position />
+	<Normal />
+	<BlendWeights />
+	<BlendIndices />
+    <Colour0 />
+    <TexCoord0 />
+    <TexCoord1 />
+    <Tangent />
+   </Item>
+   <Item type="GTAV1">
+    <Position />
+	<Normal />
+	<Tangent />
+    <Colour0 />
+    <TexCoord0 />
+    <TexCoord1 />
+   </Item>
+   <Item type="GTAV1">
+    <Position />
+	<Normal />
+	<Tangent />
+	<BlendWeights />
+	<BlendIndices />
+    <Colour0 />
+    <TexCoord0 />
+    <TexCoord1 />
+   </Item>
+  </Layout>
+  <Parameters>
+          <Item name="tintpalettetex" type="Texture" />
+		  <Item name="diffusetex" type="Texture" />
+		  <Item name="bumptex" type="Texture" />
+		  <Item name="speculartex" type="Texture" />
+		  <Item name="speculartex2" type="Texture" />
+		  <Item name="detailtexarrayn" type="Texture" />
+		  <Item name="tintpaletteselector" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="detailsettings" type="Vector" x="0.0" y="1.0" z="24.0" w="24.0" />
+		  <Item name="detailindexoverride" type="Vector" x="-1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="fresnel" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="specmapintmask" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="tintoverride" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrglassiness" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrcavityrange" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrtweak_metallic" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrtweak_sheen" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrtweak_roughness" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrtweak_ao" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrtweak_translucency" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrtweak_fresnel" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrtweak_detail" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrtweak_detailIndex_" type="Vector" x="-1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrdetail_metallic" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrdetail_sheen" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrdetail_roughness" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrdetail_ao" type="Vector" x="0.0" yy="0.0" z="0.0" w="0.0" />
+		  <Item name="pbrdetail_translucency" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="bumpiness" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="wetnessmultiplier" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />		  
+		  <Item name="porosity" type="Vector" x="0.5" y="0.0" z="0.0" w="0.0" />
+		  <Item name="usetessellation" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="hardalphablend" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="marktaaghostingbit" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="usepaintedwetness" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="haspuddleswitch" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="puddleheightbias" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="puddlemaskscale" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+		  <Item name="translucencyastintmask" type="Vector" x="1.0" y="0.0" z="0.0" w="0.0" />
+        </Parameters>
+ </Item>
+  <Item>
+  <Name>standard_alpha_inst</Name>
+  <FileName>
+   <Item>standard_alpha_inst.sps</Item>
   </FileName>
   <RenderBucket>1</RenderBucket>
   <Layout>
