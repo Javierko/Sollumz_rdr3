@@ -450,6 +450,9 @@ conversionMap[23642] = 12 #COBBLESTONE_DIRT >  COBLESTONE
 conversionMap[17881] = 100 #CLOTH_SACK > CLOTH
 conversionMap[458] = 65 #METAL_RAILING_TRAM  > METAL_RAILING
 conversionMap[30124] = 31 #GRAVEL_DIRT  > GRAVEL_SMALL
+conversionMap[11801] = 84 
+conversionMap[32294] = 78 
+
 
 def create_collision_material_from_index(collisionindex: int):
     if collisionindex > 200:
