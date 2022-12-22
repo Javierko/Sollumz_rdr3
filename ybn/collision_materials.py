@@ -452,6 +452,10 @@ conversionMap[458] = 65 #METAL_RAILING_TRAM  > METAL_RAILING
 conversionMap[30124] = 31 #GRAVEL_DIRT  > GRAVEL_SMALL
 conversionMap[11801] = 84 
 conversionMap[32294] = 78 
+conversionMap[3816] = 81  #TILE > CERAMIC
+conversionMap[5609] = 48  #GRASS_DEAD > GRASS_SHORT
+
+
 
 
 def create_collision_material_from_index(collisionindex: int):
