@@ -11805,7 +11805,7 @@
     <Item name="wetness" type="Vector" x="0" y="0" z="0" w="0" />
     <Item name="porosity" type="Vector" x="0.2" y="0.2" z="0.2" w="0.2" />
     <Item name="terrainfresnel" type="Vector" x="0.96" y="0.96" z="0.93" w="0.96" />
-    <Item name="pxmenabled" type="Vector" x="1" y="0" z="0" w="0" />
+    <Item name="pxmenabled" type="Vector" x="1" y="1" z="0" w="0" />
     <Item name="pxmscales1234" type="Vector" x="1" y="1" z="1" w="1" />
     <Item name="pxmbiases1234" type="Vector" x="0" y="0.5" z="0.5" w="0.5" />
     <Item name="puddleheightbias" type="Vector" x="0" y="0" z="0" w="0" />
@@ -12030,9 +12030,9 @@
     <Item name="wetness" type="Vector" x="0" y="0" z="0" w="0" />
     <Item name="porosity" type="Vector" x="0" y="0" z="0" w="0" />
     <Item name="terrainfresnel" type="Vector" x="0.96" y="0.96" z="0.96" w="0.96" />
-    <Item name="pxmenabled" type="Vector" x="0.96" y="0.96" z="0.96" w="0.96" />
-    <Item name="pxmscales1234" type="Vector" x="0.96" y="0.96" z="0.96" w="0.96" />
-    <Item name="pxmbiases1234" type="Vector" x="0.96" y="0.96" z="0.96" w="0.96" />
+    <Item name="pxmenabled" type="Vector" x="1" y="1" z="1" w="1" />
+    <Item name="pxmscales1234" type="Vector" x="1" y="1" z="1" w="1" />
+    <Item name="pxmbiases1234" type="Vector" x="0.5" y="0.5" z="0.5" w="0.5" />
     <Item name="puddleheightbias" type="Vector" x="0" y="0" z="0" w="0" />
     <Item name="puddlemaskscale" type="Vector" x="2" y="0" z="0" w="0" />
     <Item name="tintintensity" type="Vector" x="0" y="1.070478" z="1.06624" w="0" />
@@ -12106,9 +12106,9 @@
     <Item name="wetness" type="Vector" x="0" y="0" z="0" w="0" />
     <Item name="porosity" type="Vector" x="0" y="0" z="0" w="0" />
     <Item name="terrainfresnel" type="Vector" x="0.96" y="0.96" z="0.96" w="0.96" />
-    <Item name="pxmenabled" type="Vector" x="0.96" y="0.96" z="0.96" w="0.96" />
-    <Item name="pxmscales1234" type="Vector" x="0.96" y="0.96" z="0.96" w="0.96" />
-    <Item name="pxmbiases1234" type="Vector" x="0.96" y="0.96" z="0.96" w="0.96" />
+    <Item name="pxmenabled" type="Vector" x="1" y="1" z="1" w="1" />
+    <Item name="pxmscales1234" type="Vector" x="1" y="1" z="1" w="1" />
+    <Item name="pxmbiases1234" type="Vector" x="0.5" y="0.5" z="0.5" w="0.5" />
     <Item name="puddleheightbias" type="Vector" x="0" y="0" z="0" w="0" />
     <Item name="puddlemaskscale" type="Vector" x="2" y="0" z="0" w="0" />
     <Item name="tintintensity" type="Vector" x="0" y="1.070478" z="1.06624" w="0" />
@@ -12183,9 +12183,9 @@
     <Item name="wetness" type="Vector" x="0" y="0" z="0" w="0" />
     <Item name="porosity" type="Vector" x="0" y="0" z="0" w="0" />
     <Item name="terrainfresnel" type="Vector" x="0.96" y="0.96" z="0.96" w="0.96" />
-    <Item name="pxmenabled" type="Vector" x="0.96" y="0.96" z="0.96" w="0.96" />
-    <Item name="pxmscales1234" type="Vector" x="0.96" y="0.96" z="0.96" w="0.96" />
-    <Item name="pxmbiases1234" type="Vector" x="0.96" y="0.96" z="0.96" w="0.96" />
+    <Item name="pxmenabled" type="Vector" x="1" y="1" z="1" w="1" />
+    <Item name="pxmscales1234" type="Vector" x="1" y="1" z="1" w="1" />
+    <Item name="pxmbiases1234" type="Vector" x="0.5" y="0.5" z="0.5" w="0.5" />
     <Item name="puddleheightbias" type="Vector" x="0" y="0" z="0" w="0" />
     <Item name="puddlemaskscale" type="Vector" x="2" y="0" z="0" w="0" />
     <Item name="tintintensity" type="Vector" x="0" y="1.070478" z="1.06624" w="0" />
@@ -12264,9 +12264,9 @@
     <Item name="wetness" type="Vector" x="0" y="0" z="0" w="0" />
     <Item name="porosity" type="Vector" x="0" y="0" z="0" w="0" />
     <Item name="terrainfresnel" type="Vector" x="0.96" y="0.96" z="0.96" w="0.96" />
-    <Item name="pxmenabled" type="Vector" x="0.96" y="0.96" z="0.96" w="0.96" />
-    <Item name="pxmscales1234" type="Vector" x="0.96" y="0.96" z="0.96" w="0.96" />
-    <Item name="pxmbiases1234" type="Vector" x="0.96" y="0.96" z="0.96" w="0.96" />
+    <Item name="pxmenabled" type="Vector" x="1" y="1" z="1" w="1" />
+    <Item name="pxmscales1234" type="Vector" x="1" y="1" z="1" w="1" />
+    <Item name="pxmbiases1234" type="Vector" x="0.5" y="0.5" z="0.5" w="0.5" />
     <Item name="puddleheightbias" type="Vector" x="0" y="0" z="0" w="0" />
     <Item name="puddlemaskscale" type="Vector" x="2" y="0" z="0" w="0" />
     <Item name="tintintensity" type="Vector" x="0" y="1.070478" z="1.06624" w="0" />
@@ -12484,9 +12484,9 @@
     <Item name="wetness" type="Vector" x="0" y="0" z="0" w="0" />
     <Item name="porosity" type="Vector" x="0" y="0" z="0" w="0" />
     <Item name="terrainfresnel" type="Vector" x="0.96" y="0.96" z="0.96" w="0.96" />
-    <Item name="pxmenabled" type="Vector" x="0.96" y="0.96" z="0.96" w="0.96" />
-    <Item name="pxmscales1234" type="Vector" x="0.96" y="0.96" z="0.96" w="0.96" />
-    <Item name="pxmbiases1234" type="Vector" x="0.96" y="0.96" z="0.96" w="0.96" />
+    <Item name="pxmenabled" type="Vector" x="1" y="1" z="1" w="1" />
+    <Item name="pxmscales1234" type="Vector" x="1" y="1" z="1" w="1" />
+    <Item name="pxmbiases1234" type="Vector" x="0.5" y="0.5" z="0.5" w="0.5" />
     <Item name="tintintensity" type="Vector" x="0" y="1.070478" z="1.06624" w="0" />
     <Item name="tintblendamount" type="Vector" x="0" y="0" z="0" w="0" />
     <Item name="lookupuvset" type="Vector" x="3" y="0" z="0" w="0" />
@@ -12559,9 +12559,9 @@
     <Item name="wetness" type="Vector" x="0" y="0" z="0" w="0" />
     <Item name="porosity" type="Vector" x="0" y="0" z="0" w="0" />
     <Item name="terrainfresnel" type="Vector" x="0.96" y="0.96" z="0.96" w="0.96" />
-    <Item name="pxmenabled" type="Vector" x="0.96" y="0.96" z="0.96" w="0.96" />
-    <Item name="pxmscales1234" type="Vector" x="0.96" y="0.96" z="0.96" w="0.96" />
-    <Item name="pxmbiases1234" type="Vector" x="0.96" y="0.96" z="0.96" w="0.96" />
+    <Item name="pxmenabled" type="Vector" x="1" y="1" z="1" w="1" />
+    <Item name="pxmscales1234" type="Vector" x="1" y="1" z="1" w="1" />
+    <Item name="pxmbiases1234" type="Vector" x="0.5" y="0.5" z="0.5" w="0.5" />
     <Item name="tintintensity" type="Vector" x="0" y="1.070478" z="1.06624" w="0" />
     <Item name="tintblendamount" type="Vector" x="0" y="0" z="0" w="0" />
     <Item name="lookupuvset" type="Vector" x="3" y="0" z="0" w="0" />
@@ -12635,9 +12635,9 @@
     <Item name="wetness" type="Vector" x="0" y="0" z="0" w="0" />
     <Item name="porosity" type="Vector" x="0" y="0" z="0" w="0" />
     <Item name="terrainfresnel" type="Vector" x="0.96" y="0.96" z="0.96" w="0.96" />
-    <Item name="pxmenabled" type="Vector" x="0.96" y="0.96" z="0.96" w="0.96" />
-    <Item name="pxmscales1234" type="Vector" x="0.96" y="0.96" z="0.96" w="0.96" />
-    <Item name="pxmbiases1234" type="Vector" x="0.96" y="0.96" z="0.96" w="0.96" />
+    <Item name="pxmenabled" type="Vector" x="1" y="1" z="1" w="1" />
+    <Item name="pxmscales1234" type="Vector" x="1" y="1" z="1" w="1" />
+    <Item name="pxmbiases1234" type="Vector" x="0.5" y="0.5" z="0.5" w="0.5" />
     <Item name="puddleheightbias" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
 	<Item name="puddlemaskscale" type="Vector" x="2.0" y="0.0" z="0.0" w="0.0" />
     <Item name="tintintensity" type="Vector" x="0" y="1.070478" z="1.06624" w="0" />
@@ -12713,9 +12713,9 @@
     <Item name="wetness" type="Vector" x="0" y="0" z="0" w="0" />
     <Item name="porosity" type="Vector" x="0" y="0" z="0" w="0" />
     <Item name="terrainfresnel" type="Vector" x="0.96" y="0.96" z="0.96" w="0.96" />
-    <Item name="pxmenabled" type="Vector" x="0.96" y="0.96" z="0.96" w="0.96" />
-    <Item name="pxmscales1234" type="Vector" x="0.96" y="0.96" z="0.96" w="0.96" />
-    <Item name="pxmbiases1234" type="Vector" x="0.96" y="0.96" z="0.96" w="0.96" />
+    <Item name="pxmenabled" type="Vector" x="1" y="1" z="1" w="1" />
+    <Item name="pxmscales1234" type="Vector" x="1" y="1" z="1" w="1" />
+    <Item name="pxmbiases1234" type="Vector" x="0.5" y="0.5" z="0.5" w="0.5" />
     <Item name="puddleheightbias" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
 	<Item name="puddlemaskscale" type="Vector" x="2.0" y="0.0" z="0.0" w="0.0" />
     <Item name="tintintensity" type="Vector" x="0" y="1.070478" z="1.06624" w="0" />
@@ -12791,9 +12791,9 @@
     <Item name="wetness" type="Vector" x="0" y="0" z="0" w="0" />
     <Item name="porosity" type="Vector" x="0" y="0" z="0" w="0" />
     <Item name="terrainfresnel" type="Vector" x="0.96" y="0.96" z="0.96" w="0.96" />
-    <Item name="pxmenabled" type="Vector" x="0.96" y="0.96" z="0.96" w="0.96" />
-    <Item name="pxmscales1234" type="Vector" x="0.96" y="0.96" z="0.96" w="0.96" />
-    <Item name="pxmbiases1234" type="Vector" x="0.96" y="0.96" z="0.96" w="0.96" />
+    <Item name="pxmenabled" type="Vector" x="1" y="1" z="1" w="1" />
+    <Item name="pxmscales1234" type="Vector" x="1" y="1" z="1" w="1" />
+    <Item name="pxmbiases1234" type="Vector" x="0.5" y="0.5" z="0.5" w="0.5" />
     <Item name="puddleheightbias" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
 	<Item name="puddlemaskscale" type="Vector" x="2.0" y="0.0" z="0.0" w="0.0" />
     <Item name="tintintensity" type="Vector" x="0" y="1.070478" z="1.06624" w="0" />
@@ -12869,9 +12869,9 @@
     <Item name="wetness" type="Vector" x="0" y="0" z="0" w="0" />
     <Item name="porosity" type="Vector" x="0" y="0" z="0" w="0" />
     <Item name="terrainfresnel" type="Vector" x="0.96" y="0.96" z="0.96" w="0.96" />
-    <Item name="pxmenabled" type="Vector" x="0.96" y="0.96" z="0.96" w="0.96" />
-    <Item name="pxmscales1234" type="Vector" x="0.96" y="0.96" z="0.96" w="0.96" />
-    <Item name="pxmbiases1234" type="Vector" x="0.96" y="0.96" z="0.96" w="0.96" />
+    <Item name="pxmenabled" type="Vector" x="1" y="1" z="1" w="1" />
+    <Item name="pxmscales1234" type="Vector" x="1" y="1" z="1" w="1" />
+    <Item name="pxmbiases1234" type="Vector" x="0.5" y="0.5" z="0.5" w="0.5" />
     <Item name="puddleheightbias" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
 	<Item name="puddlemaskscale" type="Vector" x="2.0" y="0.0" z="0.0" w="0.0" />
     <Item name="tintintensity" type="Vector" x="0" y="1.070478" z="1.06624" w="0" />
@@ -12947,9 +12947,9 @@
     <Item name="wetness" type="Vector" x="0" y="0" z="0" w="0" />
     <Item name="porosity" type="Vector" x="0" y="0" z="0" w="0" />
     <Item name="terrainfresnel" type="Vector" x="0.96" y="0.96" z="0.96" w="0.96" />
-    <Item name="pxmenabled" type="Vector" x="0.96" y="0.96" z="0.96" w="0.96" />
-    <Item name="pxmscales1234" type="Vector" x="0.96" y="0.96" z="0.96" w="0.96" />
-    <Item name="pxmbiases1234" type="Vector" x="0.96" y="0.96" z="0.96" w="0.96" />
+    <Item name="pxmenabled" type="Vector" x="1" y="1" z="1" w="1" />
+    <Item name="pxmscales1234" type="Vector" x="1" y="1" z="1" w="1" />
+    <Item name="pxmbiases1234" type="Vector" x="0.5" y="0.5" z="0.5" w="0.5" />
     <Item name="puddleheightbias" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
 	<Item name="puddlemaskscale" type="Vector" x="2.0" y="0.0" z="0.0" w="0.0" />
     <Item name="tintintensity" type="Vector" x="0" y="1.070478" z="1.06624" w="0" />
@@ -13025,9 +13025,9 @@
     <Item name="wetness" type="Vector" x="0" y="0" z="0" w="0" />
     <Item name="porosity" type="Vector" x="0" y="0" z="0" w="0" />
     <Item name="terrainfresnel" type="Vector" x="0.96" y="0.96" z="0.96" w="0.96" />
-    <Item name="pxmenabled" type="Vector" x="0.96" y="0.96" z="0.96" w="0.96" />
-    <Item name="pxmscales1234" type="Vector" x="0.96" y="0.96" z="0.96" w="0.96" />
-    <Item name="pxmbiases1234" type="Vector" x="0.96" y="0.96" z="0.96" w="0.96" />
+    <Item name="pxmenabled" type="Vector" x="1" y="1" z="1" w="1" />
+    <Item name="pxmscales1234" type="Vector" x="1" y="1" z="1" w="1" />
+    <Item name="pxmbiases1234" type="Vector" x="0.5" y="0.5" z="0.5" w="0.5" />
     <Item name="puddleheightbias" type="Vector" x="0.0" y="0.0" z="0.0" w="0.0" />
 	<Item name="puddlemaskscale" type="Vector" x="2.0" y="0.0" z="0.0" w="0.0" />
     <Item name="tintintensity" type="Vector" x="0" y="1.070478" z="1.06624" w="0" />
