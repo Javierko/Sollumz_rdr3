@@ -17,7 +17,7 @@ def set_room_attached_objects(room_xml: ytypxml.Room, room_index: int, entities:
 
 def set_portal_attached_objects(portal_xml: ytypxml.Portal, portal_index: int, entities: Iterable[MloEntityProperties]):
     """Set attached objects of portal from the mlo archetype entities collection provided."""
-
+    
     for index, entity in enumerate(entities):
         if entity.attached_portal_index == portal_index:
             portal_xml.attached_objects.append(index)
@@ -128,6 +128,11 @@ def create_portal_xml(portal: PortalProperties, portal_index: int, archetype: Ar
     portal_xml.opacity = portal.opacity
     portal_xml.audio_occlusion = int(
         portal.audio_occlusion)
+    
+    portal_xml.redm_prop_1 = 1.0
+    portal_xml.redm_prop_2 = 1.0
+    portal_xml.redm_prop_3 = 1.0
+    portal_xml.redm_prop_4 = 1.0
 
     set_portal_attached_objects(
         portal_xml, portal_index, archetype.entities)

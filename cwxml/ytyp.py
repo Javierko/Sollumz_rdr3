@@ -124,6 +124,9 @@ class AttachedObjectsBuffer(ElementProperty):
 
         element.text = "".join(text)
 
+        if len(self.value) <= 0:
+            element.text = " "
+
         return element
 
 
@@ -137,6 +140,10 @@ class Portal(ElementTree):
         self.flags = ValueProperty("flags")
         self.mirror_priority = ValueProperty("mirrorPriority")
         self.opacity = ValueProperty("opacity")
+        self.redm_prop_1 = ValueProperty("redm_loves_you_b5c65d165ac2a96a")
+        self.redm_prop_2 = ValueProperty("redm_loves_you_77f55279e5bd37e2")
+        self.redm_prop_3 = ValueProperty("redm_loves_you_b35ecf068bc6b8e4")
+        self.redm_prop_4 = ValueProperty("redm_loves_you_e8f083f1ebc039d7")
         self.audio_occlusion = ValueProperty("audioOcclusion")
         self.corners = Corner()
         self.attached_objects = AttachedObjectsBuffer()
